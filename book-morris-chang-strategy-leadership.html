@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《張忠謀談策略與領導：台積電 30 年經營戰略》16頁麥肯錫風格互動簡報教材｜執行長專業入口網</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800;900&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mode-slide">
+
+  <!-- Top Fixed App Header (McKinsey Deep Navy) -->
+  <header class="app-header">
+    <div class="header-brand">
+      <div class="brand-icon">McK</div>
+      <div class="brand-text">
+        <h1>BOOK #01｜《張忠謀談策略與領導：台積電 30 年經營戰略》麥肯錫風格導讀簡報</h1>
+        <p>McKinsey Pyramid Principle Action Deck ｜ 16 頁全圖表＋全表格結構化教材（支援鍵盤 ← → 翻頁与 Ctrl+K 檢索）</p>
+      </div>
+    </div>
+    <div class="header-controls">
+      <button id="btnModeSlide" class="btn-toggle-mode active" title="單頁簡報授課模式（支援鍵盤左右鍵切換）">🖥️ 簡報授課模式</button>
+      <button id="btnModeScroll" class="btn-toggle-mode" title="長頁講義閱覽模式（適合學員快速瀏覽與列印）">📜 講義長圖模式</button>
+      <button id="btnToggleNotes" class="btn-toggle-mode active" title="顯示或隱藏麥肯錫三段式講師備忘錄">🎤 講稿備忘錄</button>
+      <a href="index.html" class="btn-toggle-mode" style="background: rgba(34,81,255,0.35); border-color: #00A9F4; color: #FFFFFF;">🏠 返回執行長入口網</a>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar-container">
+    <div id="progressBar" class="progress-bar-fill"></div>
+  </div>
+
+  <!-- Main Workspace -->
+  <div class="app-container">
+
+    <!-- Left Sidebar Navigation & Search -->
+    <aside class="app-sidebar">
+      <div class="sidebar-search">
+        <input type="text" id="searchInput" placeholder="🔍 搜尋簡報關鍵字 (Ctrl+K)...">
+      </div>
+
+      <div class="filter-tags">
+        <button class="tag-btn active" data-filter="all">全部 (16)</button>
+        <button class="tag-btn" data-filter="p1">🔥 P1 戰略商模</button>
+        <button class="tag-btn" data-filter="p2">⚡ P2 六大基本功</button>
+        <button class="tag-btn" data-filter="p3">🌱 P3 治理與學習</button>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-group-title">SECTION I・全書總覽與經營金字塔</div>
+        <a class="nav-item active" data-target="slide-cover" data-priority="p1">
+          <span>01｜核心命題：一舉讓對手絕望</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-career-timeline" data-priority="p1">
+          <span>02｜60年總經理生涯與7大篇章</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-pyramid" data-priority="p1">
+          <span>03｜經營金字塔：商模＞策略＞基本功</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+
+        <div class="nav-group-title">SECTION II・60年總經理六大基本功</div>
+        <a class="nav-item" data-target="slide-tech-presentation" data-priority="p2">
+          <span>04｜技術鑽研 ＆「述你所知」簡報</span>
+          <span class="priority-badge badge-p2">P2</span>
+        </a>
+        <a class="nav-item" data-target="slide-commodity-custom" data-priority="p2">
+          <span>05｜商品 vs. 客製品（波特競爭觀）</span>
+          <span class="priority-badge badge-p2">P2</span>
+        </a>
+        <a class="nav-item" data-target="slide-marketing-pricing" data-priority="p1">
+          <span>06｜行銷第一 ＆ 訂價抵1000工程師</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-listening" data-priority="p2">
+          <span>07｜傾聽心法：專注看對方、不記筆記</span>
+          <span class="priority-badge badge-p2">P2</span>
+        </a>
+        <a class="nav-item" data-target="slide-leadership-team" data-priority="p2">
+          <span>08｜團隊領導：不帶老班底、公平與方向</span>
+          <span class="priority-badge badge-p2">P2</span>
+        </a>
+
+        <div class="nav-group-title">SECTION III・致勝策略與商業模式革命</div>
+        <a class="nav-item" data-target="slide-strategy-despair" data-priority="p1">
+          <span>09｜策略鐵律：1974降價戰與學習曲線</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-strategy-3w" data-priority="p1">
+          <span>10｜3W原則(Who/What/When)與上任節奏</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-business-model" data-priority="p1">
+          <span>11｜商業模式：從「客戶是誰」定義</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+        <a class="nav-item" data-target="slide-handwritten-1998" data-priority="p1">
+          <span>12｜鎮館機密：1998唯一手寫策略手稿</span>
+          <span class="priority-badge badge-p1">P1</span>
+        </a>
+
+        <div class="nav-group-title">SECTION IV・創新治理、人才循環與學習</div>
+        <a class="nav-item" data-target="slide-innovation-governance" data-priority="p3">
+          <span>13｜創新上訴機制 ＆ 雙首長平行領導制</span>
+          <span class="priority-badge badge-p3">P3</span>
+        </a>
+        <a class="nav-item" data-target="slide-global-talent" data-priority="p3">
+          <span>14｜世界觀、謙虛 ＆ 人才循環訓練法</span>
+          <span class="priority-badge badge-p3">P3</span>
+        </a>
+        <a class="nav-item" data-target="slide-learning-secrets" data-priority="p3">
+          <span>15｜三大終身學習祕訣（日讀2-4小時）</span>
+          <span class="priority-badge badge-p3">P3</span>
+        </a>
+        <a class="nav-item" data-target="slide-qa-action" data-priority="p3">
+          <span>16｜清大4大QA ＆ CEO落地行動方案</span>
+          <span class="priority-badge badge-p3">P3</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Right Content Area: 16 McKinsey Action-Title Slides (Every slide has Visual/SVG + Table) -->
+    <main class="app-content">
+      <div class="slides-container">
+
+        <!-- ==================== SLIDE 01 ==================== -->
+        <section class="slide-card active-slide" id="slide-cover">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 01 / 16 ｜ EXECUTIVE COVER & GOVERNING THOUGHT</div>
+              <h2 class="slide-title">張忠謀以「客戶是誰」開創晶圓代工商業模式，並以「一舉讓對手絕望」的策略與 60 年基本功鍛造世界級台積電</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 核心命題</span>
+          </div>
+          <div class="slide-body">
+            <div class="callout callout-core" style="margin-top: 0;">
+              <strong>🎯 全書核心主張（Governing Thought）：</strong>
+              本專刊彙整台積電創辦人張忠謀 60 年總經理實戰精髓：底層靠<strong>六大經營基本功</strong>（技術、簡報、客製品定位、行銷訂價、專注傾聽、無私領導）凝聚團隊，中層靠<strong>「一舉讓對手絕望」與 3W 原則</strong>落實策略，頂層則以<strong>「客戶是誰」重新定義商業模式</strong>，輔以<strong>世界觀、謙虛（Modesty）、人才循環與每日 2–4 小時閱讀</strong>領航產業尖端。
+            </div>
+
+            <div class="grid-2" style="align-items: stretch;">
+              <!-- Visual Exhibit 1A: Cover Image -->
+              <figure class="slide-media" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div class="mck-exhibit-label"><span>EXHIBIT 1A ｜ SOURCE COVER ARCHIVE</span><span>27 PAGES / 7 CHAPTERS</span></div>
+                <img src="assets/cover_page1.png" alt="張忠謀談策略與領導專刊封面" style="max-height: 350px; width: auto; object-fit: contain;">
+                <figcaption>▲ 原始教材：《數位時代・經理人》會員限定專刊《台積電 30 年經營戰略：一舉就要讓對手絕望！張忠謀談策略與領導》</figcaption>
+              </figure>
+
+              <!-- Table Exhibit 1B: 4 Pillars Matrix Table -->
+              <div class="mck-exhibit-box" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div>
+                  <div class="mck-exhibit-label"><span>EXHIBIT 1B ｜ FOUR PILLARS OF MORRIS CHANG'S CEO SYSTEM</span><span>KEY METRICS</span></div>
+                  <div class="mck-exhibit-title">張忠謀 60 年經營體系四大支柱與關鍵量化指標總覽</div>
+                  <table class="custom-table">
+                    <thead>
+                      <tr>
+                        <th style="width: 26%;">四大核心支柱</th>
+                        <th style="width: 44%;">關鍵經營法則與實戰心法</th>
+                        <th style="width: 30%;">代表性量化數據</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>1. 商業模式革新</strong><br><span class="mini-tag">Ch 01 (p.7-8)</span></td>
+                        <td>不以「產品是什麼」定義，而以<strong>「客戶是誰（半導體公司）」</strong>定義「半導體製造服務」，取得 <strong>First & Last Look</strong>。</td>
+                        <td><strong>>20% ROE</strong> 目標<br>2010 營收 <strong>130 億美元</strong></td>
+                      </tr>
+                      <tr>
+                        <td><strong>2. 致勝競爭策略</strong><br><span class="mini-tag">Ch 01, 03</span></td>
+                        <td><strong>「一舉就要讓對手絕望」</strong>（1974 TTL 持續降價學習曲線）；新官先別談策略；訂好 <strong>Who / What / When (3W)</strong> 即可回家睡午覺。</td>
+                        <td>半導體 <strong>50%+ 毛利</strong><br>威爾許 <strong>5年前兩大</strong></td>
+                      </tr>
+                      <tr>
+                        <td><strong>3. 總經理六基本功</strong><br><span class="mini-tag">Ch 01, 02, 04</span></td>
+                        <td>持續鑽研技術、述你所知簡報、客製品定位、行銷第一與<strong>訂價能力</strong>、開會<strong>不記筆記</strong>專注看對方、<strong>從不帶老班底</strong>。</td>
+                        <td>訂價抵 <strong>1,000 工程師</strong><br>CEO 薪資 <strong>50x / 400x</strong></td>
+                      </tr>
+                      <tr>
+                        <td><strong>4. 治理・循環・學習</strong><br><span class="mini-tag">Ch 03, 05-07</span></td>
+                        <td>直通 CEO 創新上訴權、<strong>雙首長平行制</strong>；留美 36 年帶回<strong>世界觀與謙虛</strong>、人才循環；有目標/有紀律/有計畫學習。</td>
+                        <td>年投資 <strong>3,000 億台幣</strong><br>每日閱讀 <strong>2–4 小時</strong></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="mck-slide-source">
+                  <span>資料來源：張忠謀於玉山科技協會、清華大學、三三會、TCA 高峰會與美國 ATD 演講實錄（本專刊 p.1–27）</span>
+                  <span>McKinsey Briefing Deck • Slide 01</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>張忠謀之所以能帶領台積電從 120 人走向 5 萬人世界霸主，核心在於將「六大基本功、3W 策略、以客戶定義的商業模式、以及世界觀終身學習」融為一體。</p>
+              <p><strong>② 補充說明：</strong>專刊共收錄 7 篇核心文獻（p.2 目錄），涵蓋 1998 年塵封 20 年的手寫機密策略投影片、清大 60 年總經理的學習演講、三三會 3W 原則與雙首長制、以及台美人才循環與三大學習祕訣。</p>
+              <p><strong>③ 下一頁轉場：</strong>了解全書四大支柱後，我們翻到下一頁（Slide 02），從時間軸與全書架構圖看看張忠謀這 60 年總經理功力是如何一步步累積起來的。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 02 ==================== -->
+        <section class="slide-card" id="slide-career-timeline">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 02 / 16 ｜ BOOK ARCHITECTURE & 60-YEAR TIMELINE</div>
+              <h2 class="slide-title">從 20 歲 50 股 IBM 股票啟蒙、德州儀器 25 年歷練到 54 歲創立台積電，全書 7 大篇章完整串聯 60 年學習曲線</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 全書架構</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 2A: McKinsey SVG Career & Scale Trajectory -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 2A ｜ MORRIS CHANG'S 60-YEAR EXECUTIVE EVOLUTION TRAJECTORY</span><span>HEADCOUNT & CAPABILITY LEAP</span></div>
+              <svg viewBox="0 0 920 215" width="100%" style="max-width:880px;">
+                <rect width="920" height="215" rx="6" fill="#051C2C"/>
+                <!-- Timeline Axis -->
+                <line x1="45" y1="155" x2="875" y2="155" stroke="#00A9F4" stroke-width="3"/>
+                <!-- Growth Curve -->
+                <path d="M 85 145 L 225 135 L 385 100 L 555 58 L 725 35 L 845 28" fill="none" stroke="#F59E0B" stroke-width="3.5" stroke-dasharray="6 3"/>
+
+                <!-- Node 1: Age 20 -->
+                <circle cx="85" cy="155" r="8" fill="#2251FF" stroke="#FFFFFF" stroke-width="2"/>
+                <rect x="22" y="32" width="130" height="95" rx="4" fill="#0A2540" stroke="#38BDF8" stroke-width="1.5"/>
+                <text x="87" y="52" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">20歲｜商業前奏</text>
+                <text x="87" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">父贈 50股 IBM 股票</text>
+                <text x="87" y="90" fill="#CBD5E1" font-size="10" text-anchor="middle">（每股約 $100 美金）</text>
+                <text x="87" y="108" fill="#FCD34D" font-size="10" font-weight="bold" text-anchor="middle">學會看財報・P/E・P/B</text>
+                <text x="85" y="180" fill="#94A3B8" font-size="11" font-weight="bold" text-anchor="middle">1951 (MIT)</text>
+
+                <!-- Node 2: Age 24-27 -->
+                <circle cx="235" cy="155" r="8" fill="#2251FF" stroke="#FFFFFF" stroke-width="2"/>
+                <rect x="168" y="32" width="136" height="95" rx="4" fill="#0A2540" stroke="#38BDF8" stroke-width="1.5"/>
+                <text x="236" y="52" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">22–27歲｜技術突圍</text>
+                <text x="236" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">24歲入 Sylvania</text>
+                <text x="236" y="90" fill="#CBD5E1" font-size="10" text-anchor="middle">27歲成 TI 首位華裔</text>
+                <text x="236" y="108" fill="#FCD34D" font-size="10" font-weight="bold" text-anchor="middle">公費2.5年拿史丹佛博士</text>
+                <text x="235" y="180" fill="#94A3B8" font-size="11" font-weight="bold" text-anchor="middle">1955–1963</text>
+
+                <!-- Node 3: Age 33 -->
+                <circle cx="395" cy="155" r="8" fill="#00A9F4" stroke="#FFFFFF" stroke-width="2"/>
+                <rect x="320" y="32" width="150" height="95" rx="4" fill="#0A2540" stroke="#00A9F4" stroke-width="1.5"/>
+                <text x="395" y="52" fill="#7DD3FC" font-size="12" font-weight="bold" text-anchor="middle">33歲｜首任總經理</text>
+                <text x="395" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">掌管 3,000 人部門</text>
+                <text x="395" y="90" fill="#CBD5E1" font-size="10" text-anchor="middle">（含 2,500 名德州作業員）</text>
+                <text x="395" y="108" fill="#34D399" font-size="10" font-weight="bold" text-anchor="middle">補齊行銷・綠郵票激勵</text>
+                <text x="395" y="180" fill="#94A3B8" font-size="11" font-weight="bold" text-anchor="middle">1964 (TI GM)</text>
+
+                <!-- Node 4: Age 41-52 -->
+                <circle cx="565" cy="155" r="8" fill="#00A9F4" stroke="#FFFFFF" stroke-width="2"/>
+                <rect x="486" y="32" width="156" height="95" rx="4" fill="#0A2540" stroke="#00A9F4" stroke-width="1.5"/>
+                <text x="564" y="52" fill="#7DD3FC" font-size="12" font-weight="bold" text-anchor="middle">33–52歲｜TI 黃金歲月</text>
+                <text x="564" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">擴展至 40,000 人規模</text>
+                <text x="564" y="90" fill="#CBD5E1" font-size="10" text-anchor="middle">1972 升半導體總經理</text>
+                <text x="564" y="108" fill="#FBBF24" font-size="10" font-weight="bold" text-anchor="middle">1974 TTL 降價讓對手絕望</text>
+                <text x="565" y="180" fill="#94A3B8" font-size="11" font-weight="bold" text-anchor="middle">留美共 36 年</text>
+
+                <!-- Node 5: Age 54-87 -->
+                <circle cx="765" cy="155" r="10" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2.5"/>
+                <rect x="658" y="24" width="238" height="105" rx="4" fill="#163656" stroke="#F59E0B" stroke-width="2"/>
+                <text x="777" y="46" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">54–87歲｜創立台積電 (TSMC)</text>
+                <text x="777" y="66" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">從 120 人成長至 50,000 人帝國</text>
+                <text x="777" y="86" fill="#E2E8F0" font-size="10" text-anchor="middle">• 開創「專業晶圓代工」商業模式</text>
+                <text x="777" y="103" fill="#E2E8F0" font-size="10" text-anchor="middle">• 1998 手寫策略 ➔ 2010 營收 130 億美元</text>
+                <text x="777" y="120" fill="#34D399" font-size="10" font-weight="bold" text-anchor="middle">• 86–88歲：雙首長交棒與 3 大學習祕訣</text>
+                <text x="765" y="180" fill="#FCD34D" font-size="11" font-weight="bold" text-anchor="middle">1987–2018+ (TSMC)</text>
+              </svg>
+              <figcaption>▲ Exhibit 2A：張忠謀 60 年經營學習軌跡——前半生在美國 36 年（TI 25 年）鍛造六大基本功與世界觀，後半生在台灣 30 餘年以商業模式與策略開創台積電。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 2B: 7 Chapters Architecture Table -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 2B ｜ STRUCTURAL LOGIC OF THE 7 CHAPTERS</span><span>PAGE MAPPING</span></div>
+              <div class="mck-exhibit-title">全書 7 大篇章論證骨架與各章核心命題對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 10%;">原書章節</th>
+                      <th style="width: 28%;">篇章主題與演講場合</th>
+                      <th style="width: 44%;">本章解決的核心經營問題與關鍵證據</th>
+                      <th style="width: 18%;">對應簡報頁碼</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Ch 01</strong> (p.3-8)</td>
+                      <td>藏20年手稿，揭密台積電致勝商業模式（玉山科技協會）</td>
+                      <td>定義「六大基礎能力 ➔ 策略 ➔ 商業模式」三層架構；公開 1998 唯一手寫策略投影片。</td>
+                      <td>Slides 03–09, 11–12</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ch 02</strong> (p.9-14)</td>
+                      <td>清大演講完整實錄：60年「總經理的學習」（清華大學）</td>
+                      <td>1964 初任 TI 總經理破局演說、百萬美元獎勵 10 美元綠郵票、CEO 內外連結與會後 4 大 QA。</td>
+                      <td>Slides 06, 08, 16</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ch 03</strong> (p.15-17)</td>
+                      <td>掌管台積電 30 年，都靠 3W 原則（三三會演講）</td>
+                      <td>獎賞賺錢創新、不罰虧本創新（直通 CEO 上訴權）；策略 3W 原則；雙首長平行制與 3,000 億投資。</td>
+                      <td>Slides 10, 13</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ch 04</strong> (p.18-20)</td>
+                      <td>當了 60 年總經理學到的 2 大管理心法（清大精煉）</td>
+                      <td>跑遍美國 48 州拜訪客戶；新任總經理先別談策略（先凝聚團隊了解體制）；高品質支撐高價格。</td>
+                      <td>Slides 06, 08, 10</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ch 05–06</strong> (p.21-25)</td>
+                      <td>別將讀台大視為人生巔峰 ＆ 闖蕩美國 36 年國際觀（TCA / ATD）</td>
+                      <td>破除 18 歲台大巔峰迷思；美國 36 年帶回「世界觀」與「謙虛 (Modesty)」；以人才循環訓練人才。</td>
+                      <td>Slide 14</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ch 07</strong> (p.26-27)</td>
+                      <td>張忠謀的 3 個學習祕訣（對標杜拉克三年式主題學習）</td>
+                      <td>1. 有目標（跟上產業防 10-15 年失業）；2. 有紀律（日讀 2-4 小時，客戶筆記雙週溫習）；3. 有計畫（結交大師）。</td>
+                      <td>Slide 15</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：《張忠謀談策略與領導》目錄與第 3–27 頁綜合整理</span>
+                <span>McKinsey Briefing Deck • Slide 02</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>張忠謀 60 年總經理生涯分為「留美 36 年鍛造基本功與世界觀」及「回台 30 餘年應用商業模式與策略」兩大階段。</p>
+              <p><strong>② 補充說明：</strong>20 歲父親送 50 股 IBM 股票（當時每股約 100 美元），他因此常跑圖書館看財報，學會 P/E（本益比）與 P/B（股價淨值比），並幽默說王建煊講「手上有股票、心中無股價」大概是沒買過股票（p.3-4）。</p>
+              <p><strong>③ 下一頁轉場：</strong>這 7 大篇章背後有一套極為嚴密的層級邏輯——讓我們翻到 Slide 03 檢視張忠謀的「經營金字塔」。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 03 ==================== -->
+        <section class="slide-card" id="slide-pyramid">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 03 / 16 ｜ CEO CAPABILITY HIERARCHY</div>
+              <h2 class="slide-title">經營能力分三層躍遷：六大基本功是根基，策略更高一層，而商業模式則站在金字塔最頂端</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 金字塔架構</span>
+          </div>
+          <div class="slide-body">
+            <div class="grid-2" style="align-items: stretch;">
+              <!-- Visual Exhibit 3A: McKinsey Pyramid SVG -->
+              <figure class="slide-media" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div class="mck-exhibit-label"><span>EXHIBIT 3A ｜ THE MORRIS CHANG MANAGEMENT PYRAMID</span><span>HIERARCHY OF IMPACT</span></div>
+                <svg viewBox="0 0 520 340" width="100%">
+                  <rect width="520" height="340" rx="6" fill="#F8FAFC"/>
+                  <!-- Level 3 Top: Business Model -->
+                  <polygon points="260,20 155,105 365,105" fill="#051C2C" stroke="#FFFFFF" stroke-width="2"/>
+                  <text x="260" y="62" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">LEVEL 3｜商業模式</text>
+                  <text x="260" y="82" fill="#FFFFFF" font-size="11" text-anchor="middle">從「客戶是誰」定義</text>
+                  <text x="260" y="97" fill="#FCD34D" font-size="10" font-weight="bold" text-anchor="middle">(創始人 Founder 專屬革新)</text>
+
+                  <!-- Level 2 Middle: Strategy -->
+                  <polygon points="150,112 90,195 430,195 370,112" fill="#2251FF" stroke="#FFFFFF" stroke-width="2"/>
+                  <text x="260" y="142" fill="#FFFFFF" font-size="14" font-weight="bold" text-anchor="middle">LEVEL 2｜致勝策略 (Strategy)</text>
+                  <text x="260" y="164" fill="#E0F2FE" font-size="11" text-anchor="middle">「一舉就要讓對手絕望」＋「3W 原則 (Who/What/When)」</text>
+                  <text x="260" y="183" fill="#FDE047" font-size="10" font-weight="bold" text-anchor="middle">（凝聚團隊、摸透公司後才出手；1998 唯一手寫策略）</text>
+
+                  <!-- Level 1 Base: 6 Fundamentals -->
+                  <polygon points="85,202 25,282 495,282 435,202" fill="#0A2540" stroke="#FFFFFF" stroke-width="2"/>
+                  <text x="260" y="230" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">LEVEL 1｜總經理六大基本功（TI 25 年養成）</text>
+                  <text x="260" y="250" fill="#FFFFFF" font-size="11" text-anchor="middle">①技術鑽研 ②說服力簡報 ③商品vs客製品</text>
+                  <text x="260" y="268" fill="#FFFFFF" font-size="11" text-anchor="middle">④業務行銷與訂價 ⑤專注傾聽不記筆記 ⑥無私團隊領導</text>
+
+                  <!-- Foundation Bar -->
+                  <rect x="25" y="290" width="470" height="38" rx="4" fill="#0D9488"/>
+                  <text x="260" y="314" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">基石｜美國36年世界觀 × 謙虛(Modesty) × 人才循環 × 日讀2-4小時</text>
+                </svg>
+                <figcaption>▲ Exhibit 3A：張忠謀於玉山科技協會親述：「前面談其他的都是基礎，策略更高一層……商業模式比策略更高一層。」（p.6-7）</figcaption>
+              </figure>
+
+              <!-- Table Exhibit 3B: Level Comparison Table -->
+              <div class="mck-exhibit-box" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div>
+                  <div class="mck-exhibit-label"><span>EXHIBIT 3B ｜ LEVEL-BY-LEVEL BREAKDOWN</span><span>DECISION OWNERSHIP</span></div>
+                  <div class="mck-exhibit-title">經營金字塔四層級之決策主體、核心法則與台積電實證</div>
+                  <table class="custom-table">
+                    <thead>
+                      <tr>
+                        <th style="width: 22%;">金字塔層級</th>
+                        <th style="width: 24%;">誰能主導？</th>
+                        <th style="width: 54%;">張忠謀核心定義與實戰判準</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>頂層：商業模式</strong><br>(p.7–8)</td>
+                        <td><strong>創始人 (Founder)</strong><br>或舊模式創新者</td>
+                        <td>54歲創台積電時已不需學基礎，而是應用。<strong>商業模式比策略更高一層，以「客戶是誰」為定</strong>（台積電客戶是半導體公司，提供製造服務）。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>中層：競爭策略</strong><br>(p.6–8, 16, 20)</td>
+                        <td><strong>成熟期總經理 / CEO</strong><br>（新官上任先緩談）</td>
+                        <td>新上任總經理先別談策略，須先凝聚團隊、了解體制。出手時<strong>「一舉讓對手絕望」</strong>，並把 <strong>Who、What、When</strong> 訂好就能回家睡午覺。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>底層：六基本功</strong><br>(p.4–6, 10–13)</td>
+                        <td><strong>所有事業部總經理</strong><br>（33–52歲養成）</td>
+                        <td>科技業 CEO 須懂技術、簡報述你所知、把行銷當 First Priority、掌握客製品訂價權、開會看對方講話不記筆記、從不帶老班底。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>基石：認知作業系統</strong><br>(p.21–27)</td>
+                        <td><strong>全體高階梯隊</strong><br>（終身修煉）</td>
+                        <td>拋棄「18歲讀台大即巔峰」心態，保持<strong>世界觀與謙虛（Modesty）</strong>，透過人才流動（Circulation）與每日 2–4 小時閱讀持續進化。</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="mck-slide-source">
+                  <span>資料來源：本專刊 Ch 01 (p.6–8)、Ch 02 (p.13)、Ch 03 (p.16)、Ch 04 (p.20)</span>
+                  <span>McKinsey Briefing Deck • Slide 03</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>優秀總經理靠「六大基本功」站穩腳跟，卓越 CEO 靠「策略」擊潰對手，而偉大創辦人則靠「商業模式創新」定義新產業。</p>
+              <p><strong>② 補充說明：</strong>張忠謀特別指出（p.7）：「商業模式比策略更高一層，不過機會很難得，你必須是創始人（Founder），才有辦法創造新的商業模式，或者就是從舊的商業模式創新。」</p>
+              <p><strong>③ 下一頁轉場：</strong>接下來我們從金字塔底層的「六大基本功」開始拆解——請看 Slide 04 的第一項與第二項基本功：技術與簡報。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 04 ==================== -->
+        <section class="slide-card" id="slide-tech-presentation">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 04 / 16 ｜ FUNDAMENTALS 01 & 02: TECHNOLOGY & PRESENTATION</div>
+              <h2 class="slide-title">科技事業 CEO 必須持續鑽研技術，而有說服力的簡報唯有「相信自己所說、並只講你知道的事」</h2>
+            </div>
+            <span class="priority-badge badge-p2">⚡ P2 技術與簡報</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 4A: Dual-Engine SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 4A ｜ DUAL CREDIBILITY ENGINE OF A TECH CEO</span><span>TECHNICAL DEPTH × AUTHENTIC DELIVERY</span></div>
+              <svg viewBox="0 0 880 180" width="100%" style="max-width:850px;">
+                <rect width="880" height="180" rx="6" fill="#051C2C"/>
+                <!-- Left Box: Tech -->
+                <rect x="24" y="22" width="385" height="136" rx="5" fill="#0A2540" stroke="#2251FF" stroke-width="2"/>
+                <text x="216" y="48" fill="#38BDF8" font-size="14" font-weight="bold" text-anchor="middle">引擎一｜技術鑽研 (Technical Acumen)</text>
+                <text x="216" y="74" fill="#FFFFFF" font-size="12" text-anchor="middle">「在科技事業中，CEO 最好還是技術出身，且要持續精進」</text>
+                <text x="216" y="98" fill="#CBD5E1" font-size="11" text-anchor="middle">• 案例：Intel 執行長基辛格 (Pat Gelsinger) 為技術人</text>
+                <text x="216" y="118" fill="#FCD34D" font-size="11" font-weight="bold" text-anchor="middle">• 2015 拜訪測試：15 分鐘內向張忠謀解釋清楚 VMware</text>
+                <text x="216" y="138" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">➔ 業務出身升總經理：不必當專家，但須懂跟隨技術方向</text>
+
+                <!-- Center Plus -->
+                <circle cx="440" cy="90" r="20" fill="#2251FF"/>
+                <text x="440" y="98" fill="#FFFFFF" font-size="24" font-weight="bold" text-anchor="middle">+</text>
+
+                <!-- Right Box: Presentation -->
+                <rect x="471" y="22" width="385" height="136" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2"/>
+                <text x="663" y="48" fill="#7DD3FC" font-size="14" font-weight="bold" text-anchor="middle">引擎二｜有說服力的簡報 (Persuasive Presentation)</text>
+                <text x="663" y="74" fill="#FFFFFF" font-size="12" text-anchor="middle">訣竅：「你自己要相信你在簡報什麼東西！」</text>
+                <text x="663" y="98" fill="#FDE047" font-size="12" font-weight="bold" text-anchor="middle">"Talk about something you know."（述你所知）</text>
+                <text x="663" y="118" fill="#CBD5E1" font-size="11" text-anchor="middle">• 30多歲在 TI 首次受邀演講焦慮請教老闆獲此箴言</text>
+                <text x="663" y="138" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">➔ 傳授給太太張淑芬演講同樣大受歡迎</text>
+              </svg>
+              <figcaption>▲ Exhibit 4A：張忠謀對科技業領袖的兩項基本要求——對內對外懂技術趨勢，上台開口則遵守「述你所知（Talk about what you know）」。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 4B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 4B ｜ TECH CEO BACKGROUND & PRESENTATION MATRIX</span><span>CHAPTERS 01 & 02</span></div>
+              <div class="mck-exhibit-title">不同出身背景 CEO 之能力補修重點與簡報說服力實證對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 22%;">維度 / 案例對象</th>
+                      <th style="width: 38%;">張忠謀觀察與原話摘錄</th>
+                      <th style="width: 40%;">對執行長／事業部總經理的實戰啟示</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>技術出身 CEO</strong><br>（張忠謀、Pat Gelsinger）</td>
+                      <td>基辛格沒念過大學但為技術人，曾批評「Intel 前幾任 CEO 連技術人都不是，公司怎麼會做得好？」張忠謀評：「我覺得他講得太偏激了點，但<strong>基本上我算同意</strong>。」(p.4)</td>
+                      <td>技術出身不可吃老本，必須<strong>持續鑽研精進技術</strong>，同時把最缺的<strong>業務與市場行銷（Sales & Marketing）</strong>列為第一優先補修課。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>業務／財務出身 CEO</strong><br>（清大演講 QA1）</td>
+                      <td>「沒有定論，比方說 Intel 的 CEO 也有財務出身的，財務出身的成功 CEO 其實不少……但<strong>最難的其實是技術</strong>。」(p.13)</td>
+                      <td>業務行銷出身升總經理，<strong>最需要學的是技術</strong>——不必做技術專家（總經理沒能力做所有面向專家），但<strong>至少要懂得跟隨技術的方向</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>15 分鐘識才測試</strong><br>（2015 VMware 拜訪案）</td>
+                      <td>2015 年基辛格寫信拜訪，張忠謀問：「VMware 是什麼樣的公司？」他在 <strong>15 分鐘內解釋清楚 VMware 是什麼，解釋得很好</strong>，「我就知道這傢伙是個人才。」(p.4)</td>
+                      <td>頂尖高管必須具備在 <strong>15 分鐘內將複雜商業與技術架構講得清清楚楚</strong>的結構化溝通力。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>有說服力的簡報</strong><br>（TI 老闆箴言＆張淑芬）</td>
+                      <td><em>"It doesn't matter what you talk about, but it's important to talk about what you know."</em>（講什麼不重要，重要的是要講你知道什麼。）(p.5, p.9–10)</td>
+                      <td>簡報忌諱講自己不熟或不信的套話；<strong>唯有自己深信不疑且透徹理解的內容（述你所知）</strong>，才能自然傳遞熱情與說服力。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.4–5)、Ch 02 (p.9–10, 13)</span>
+                <span>McKinsey Briefing Deck • Slide 04</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>科技業最難的是技術，CEO 必須持續鑽研技術方向；而簡報要有說服力，關鍵在於「自己相信」且「只講自己真正知道的事」。</p>
+              <p><strong>② 補充說明：</strong>張忠謀在 p.4 提到 5 年前就覺得 Pat Gelsinger 有點不客氣，但 2015 年見面時 Gelsinger 用 15 分鐘把 VMware 解釋得極其透徹，讓他立刻賞識其才華。</p>
+              <p><strong>③ 下一頁轉場：</strong>懂了技術與簡報之後，總經理馬上要面對市場競爭——你賣的到底是「商品」還是「客製品」？請看 Slide 05。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 05 ==================== -->
+        <section class="slide-card" id="slide-commodity-custom">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 05 / 16 ｜ FUNDAMENTALS 03: COMMODITY VS. CUSTOM PRODUCT</div>
+              <h2 class="slide-title">只要兩家公司做相似東西就是「商品」且一個對手就夠難應付，不如做只有你一家的「客製品」生意</h2>
+            </div>
+            <span class="priority-badge badge-p2">⚡ P2 產品定位</span>
+          </div>
+          <div class="slide-body">
+            <div class="grid-2" style="align-items: stretch;">
+              <!-- Visual Exhibit 5A: Strategic Positioning SVG -->
+              <figure class="slide-media" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div class="mck-exhibit-label"><span>EXHIBIT 5A ｜ PORTER'S COMMODITY TRAP VS. CUSTOM MONOPOLY</span><span>PRICING FREEDOM</span></div>
+                <svg viewBox="0 0 500 300" width="100%">
+                  <rect width="500" height="300" rx="6" fill="#051C2C"/>
+                  <!-- Axes -->
+                  <line x1="60" y1="250" x2="465" y2="250" stroke="#94A3B8" stroke-width="2"/>
+                  <line x1="60" y1="250" x2="60" y2="30" stroke="#94A3B8" stroke-width="2"/>
+                  <text x="260" y="282" fill="#CBD5E1" font-size="12" font-weight="bold" text-anchor="middle">產品差異化與客製化程度 ➔</text>
+                  <text x="25" y="140" fill="#CBD5E1" font-size="12" font-weight="bold" text-anchor="middle" transform="rotate(-90 25,140)">定價自由度與毛利空間 ➔</text>
+
+                  <!-- Bottom Left: Commodity Red Ocean -->
+                  <rect x="85" y="145" width="175" height="90" rx="6" fill="#7F1D1D" stroke="#F87171" stroke-width="2"/>
+                  <text x="172" y="168" fill="#FCA5A5" font-size="13" font-weight="bold" text-anchor="middle">❌ 商品 (Commodity)</text>
+                  <text x="172" y="188" fill="#FFFFFF" font-size="11" text-anchor="middle">≥ 2 家公司製作相似產品</text>
+                  <text x="172" y="206" fill="#FEE2E2" font-size="10" text-anchor="middle">價格由市場與對手決定</text>
+                  <text x="172" y="223" fill="#FDE047" font-size="10" font-weight="bold" text-anchor="middle">「一個競爭者就夠你應付了！」</text>
+
+                  <!-- Arrow -->
+                  <path d="M 265 160 L 300 115" stroke="#00A9F4" stroke-width="3" marker-end="url(#arrow)"/>
+
+                  <!-- Top Right: Custom Product Blue Ocean -->
+                  <rect x="275" y="42" width="180" height="95" rx="6" fill="#1E3A8A" stroke="#00A9F4" stroke-width="2.5"/>
+                  <text x="365" y="65" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">✅ 客製品 (Custom)</text>
+                  <text x="365" y="85" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">「客製品只有你一家！」</text>
+                  <text x="365" y="103" fill="#E0F2FE" font-size="10" text-anchor="middle">擁有極佳的定價自由度</text>
+                  <text x="365" y="122" fill="#34D399" font-size="10" font-weight="bold" text-anchor="middle">市場在於「客戶與行銷」</text>
+                </svg>
+                <figcaption>▲ Exhibit 5A：張忠謀引用哈佛大學麥可・波特（Michael Porter）定義，區分標準品紅海與客製品獨佔空間（p.5, p.12）。</figcaption>
+              </figure>
+
+              <!-- Table Exhibit 5B -->
+              <div class="mck-exhibit-box" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div>
+                  <div class="mck-exhibit-label"><span>EXHIBIT 5B ｜ COMMODITY VS. CUSTOM PRODUCT COMPARISON</span><span>5 STRATEGIC DIMENSIONS</span></div>
+                  <div class="mck-exhibit-title">「商品（標準型產品）」與「客製品（客製化產品）」五大經營維度對照表</div>
+                  <table class="custom-table">
+                    <thead>
+                      <tr>
+                        <th style="width: 24%;">比較維度</th>
+                        <th style="width: 38%;">商品 / 標準型產品 (Commodity)</th>
+                        <th style="width: 38%;">客製品 / 客製化產品 (Custom)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>1. 麥可・波特定義</strong></td>
+                        <td><strong>只要有兩家公司製作相似的東西</strong>，就是商品。(p.5)</td>
+                        <td>針對特定客戶需求量身打造，<strong>只有你一家供應</strong>。(p.5)</td>
+                      </tr>
+                      <tr>
+                        <td><strong>2. 競爭難度</strong></td>
+                        <td>競爭者眾，「其實，<strong>一個競爭者就夠你應付了</strong>。」(p.5)</td>
+                        <td>獨佔性高，但想做客製品會牽涉到高階<strong>策略與商業模式</strong>問題。(p.5)</td>
+                      </tr>
+                      <tr>
+                        <td><strong>3. 觀察消費者意義</strong></td>
+                        <td>「假如你是做商品，<strong>看消費者沒什麼用</strong>。」(p.5)</td>
+                        <td>「做客製品<strong>必須常常看消費者（客戶）</strong>，市場就在於客戶和行銷。」(p.5)</td>
+                      </tr>
+                      <tr>
+                        <td><strong>4. 定價自由度</strong></td>
+                        <td>價格<strong>不是由你決定</strong>，而是取決於市場與競爭對手，定價自由極少。(p.5, 12)</td>
+                        <td><strong>定價自由相當棒</strong>，有很大定價空間，依成本、客戶需求與承擔力定價。(p.5, 12)</td>
+                      </tr>
+                      <tr>
+                        <td><strong>5. 半導體實例</strong></td>
+                        <td>1974 年 TI 標準型 TTL 邏輯晶片（須靠學習曲線降價擊潰對手）。</td>
+                        <td>台積電專業晶圓代工（為每位 IC 設計客戶生產專屬晶圓）。</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="mck-slide-source">
+                  <span>資料來源：本專刊 Ch 01 (p.5)、Ch 02 (p.12)</span>
+                  <span>McKinsey Briefing Deck • Slide 05</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>CEO 必須分清楚自己賣的是標準型「商品」還是獨一無二的「客製品」；做商品價格由市場決定，做客製品才擁有定價權。</p>
+              <p><strong>② 補充說明：</strong>張忠謀引用曾任台積電獨立董事的哈佛教授麥可・波特（Michael Porter）之定義：只要有兩家公司做相似的東西就是商品，而一個競爭者就夠難應付了（p.5）。</p>
+              <p><strong>③ 下一頁轉場：</strong>既然客製品的市場在於「客戶和行銷」，且擁有定價空間，那麼 CEO 該如何看待業務行銷與訂價？請看 Slide 06。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 06 ==================== -->
+        <section class="slide-card" id="slide-marketing-pricing">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 06 / 16 ｜ FUNDAMENTALS 04: MARKETING & PRICING LEVERAGE</div>
+              <h2 class="slide-title">沒有業務就沒生意根本活不了！CEO 必須把行銷當最高任務，且「執行長的訂價能力可抵 1,000 個工程師」</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 行銷與訂價</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 6A: Compensation & Pricing Leverage Chart SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 6A ｜ CEO COMPENSATION MULTIPLIER & PRICING POWER LEVERAGE</span><span>HIGH VALUE = HIGH PRICE</span></div>
+              <svg viewBox="0 0 880 190" width="100%" style="max-width:850px;">
+                <rect width="880" height="190" rx="6" fill="#051C2C"/>
+                <!-- Left Chart: Salary & Leverage Bars -->
+                <text x="24" y="30" fill="#38BDF8" font-size="13" font-weight="bold">📊 薪酬差距與訂價槓桿倍數（專刊 p.5）</text>
+                <!-- Bar 1 -->
+                <text x="24" y="62" fill="#CBD5E1" font-size="11">作業員薪資基準</text>
+                <rect x="145" y="48" width="15" height="18" fill="#64748B"/>
+                <text x="168" y="62" fill="#94A3B8" font-size="11" font-weight="bold">1x</text>
+                <!-- Bar 2 -->
+                <text x="24" y="92" fill="#CBD5E1" font-size="11">普通工程師薪資</text>
+                <rect x="145" y="78" width="45" height="18" fill="#00A9F4"/>
+                <text x="198" y="92" fill="#7DD3FC" font-size="11" font-weight="bold">8x (CEO 為其 50 倍)</text>
+                <!-- Bar 3 -->
+                <text x="24" y="122" fill="#FFFFFF" font-size="11" font-weight="bold">執行長 (CEO) 薪資</text>
+                <rect x="145" y="108" width="210" height="18" fill="#2251FF"/>
+                <text x="365" y="122" fill="#FDE047" font-size="11" font-weight="bold">50x 工程師 ／ 400x 作業員</text>
+                <!-- Bar 4 -->
+                <text x="24" y="156" fill="#FCD34D" font-size="12" font-weight="bold">CEO 訂價能力價值</text>
+                <rect x="145" y="140" width="330" height="22" rx="3" fill="#D97706"/>
+                <text x="485" y="156" fill="#FFFFFF" font-size="13" font-weight="bold">🔥 可抵 1,000 個工程師！</text>
+
+                <!-- Divider -->
+                <line x1="600" y1="20" x2="600" y2="170" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+                <!-- Right Box: Pricing Triangle -->
+                <rect x="618" y="22" width="242" height="146" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="1.5"/>
+                <text x="739" y="45" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">💎 客製品訂價三維度 (p.12, 20)</text>
+                <text x="632" y="72" fill="#FFFFFF" font-size="11">1️⃣ 看產品成本 (Cost)</text>
+                <text x="632" y="95" fill="#FFFFFF" font-size="11">2️⃣ 看客戶需求程度 (Urgency)</text>
+                <text x="632" y="118" fill="#FFFFFF" font-size="11">3️⃣ 看客戶可承擔數字 (如 IBM)</text>
+                <text x="739" y="148" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">基石：高品質 (Quality) ➔ 高價值</text>
+              </svg>
+              <figcaption>▲ Exhibit 6A：張忠謀指出執行長薪水是工程師 50 倍、作業員 400 倍，而 CEO 的訂價能力足以抵過 1,000 個工程師的貢獻（p.5）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 6B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 6B ｜ SALES & MARKETING AS FIRST PRIORITY</span><span>CHAPTERS 01, 02 & 04</span></div>
+              <div class="mck-exhibit-title">張忠謀從技術轉戰業務行銷與訂價之四大實戰里程碑</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 22%;">實戰主題</th>
+                      <th style="width: 38%;">傳統科技主管盲點 vs. 張忠謀做法</th>
+                      <th style="width: 40%;">關鍵細節與量化成效（專刊實錄）</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>1. 破除技術自負迷思</strong><br>(Ch 02 p.11, Ch 04 p.19)</td>
+                      <td>台灣許多科技公司與 TI 前任總經理認為：「只要產品好、技術好，客人就會自己上門，不需要 Sales & Marketing。」</td>
+                      <td>張忠謀當頭棒喝：<strong>「沒有業務，就沒生意，當然也不會有獲利，根本活不了！」</strong>一當上主管就把行銷列為<strong>最高任務（First Priority）</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>2. 1964「綠郵票」激勵案</strong><br>(Ch 02 p.11)</td>
+                      <td>當時 TI 其他部門總經理都不看重業務銷售；張忠謀主動去最前線跟業務談話，開創獎勵先例。</td>
+                      <td>提出<strong>「業務每達到 100 萬美元銷售額，就給 10 美元綠郵票（可買雜貨）」</strong>。1964 年一家三口一週伙食約 50 美元，10 美元激勵效果極大；1 年後升部門經理、1972 升 TI 半導體總經理。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>3. 跑遍美國 48 州訪客</strong><br>(Ch 02 p.12, Ch 04 p.19)</td>
+                      <td>張忠謀坦言並非天生喜歡跟客戶講話，但將其視為<strong>「每一個總經理都必須具備的技能與重要任務」</strong>。</td>
+                      <td>30 幾歲學會很有信心地跟客戶說話，用舒服愉悅方式接觸客戶，<strong>不管客戶在多遠、多冷的地方都親自拜訪，足跡遍及美國 48 個州</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>4. 高價值與高品質定價</strong><br>(Ch 02 p.14, Ch 04 p.20)</td>
+                      <td>外界誤以為張忠謀追求「高價格」；張忠謀澄清：<strong>「我要的是高價值，高價格只是高價值（High Value）的結果。」</strong></td>
+                      <td>以太太張淑芬的畫為例，賣出去的價錢代表價值；最終在意的是<strong>品質（Quality）</strong>，有好的品質往往會有較好的價格。連魏哲家（CC）都深知張忠謀直到退休前對訂價最有興趣。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.5)、Ch 02 (p.11–12, 14)、Ch 04 (p.19–20)</span>
+                <span>McKinsey Briefing Deck • Slide 06</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>技術出身的總經理必須把業務行銷當作第一要務（First Priority），並親自鍛造可抵 1,000 個工程師的「高價值訂價能力」。</p>
+              <p><strong>② 補充說明：</strong>1964 年一家三口一星期伙食費大約 50 美元，張忠謀祭出每 100 萬美元業績獎 10 美元綠郵票的新招，讓產品市場經理大為振奮（p.11）。</p>
+              <p><strong>③ 下一頁轉場：</strong>當總經理走出辦公室去見客戶、或主持內部會議時，該如何聽懂對方的真心話？請看 Slide 07 的「傾聽心法」。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 07 ==================== -->
+        <section class="slide-card" id="slide-listening">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 07 / 16 ｜ FUNDAMENTALS 05: DEEP LISTENING WITHOUT NOTES</div>
+              <h2 class="slide-title">開會傾聽時「從不寫筆記」，而是全程專注「看」對方講話與肢體語言，在腦中同步解碼四層動機</h2>
+            </div>
+            <span class="priority-badge badge-p2">⚡ P2 深度傾聽</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 7A: Deep Listening Cognitive Flowchart SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 7A ｜ MORRIS CHANG'S DEEP LISTENING COGNITIVE PROCESS</span><span>LOOK, DON'T WRITE</span></div>
+              <svg viewBox="0 0 880 185" width="100%" style="max-width:850px;">
+                <rect width="880" height="185" rx="6" fill="#051C2C"/>
+                <!-- Step 1 -->
+                <rect x="22" y="25" width="240" height="135" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2"/>
+                <text x="142" y="50" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">STEP 1｜視覺鎖定・放下紙筆</text>
+                <text x="142" y="76" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">總是在「看」那個人講話</text>
+                <text x="142" y="100" fill="#CBD5E1" font-size="11" text-anchor="middle">• 開會從來不寫筆記</text>
+                <text x="142" y="120" fill="#CBD5E1" font-size="11" text-anchor="middle">• 怕會後忘記交辦頂多寫「兩個字」</text>
+                <text x="142" y="142" fill="#FCD34D" font-size="10" font-weight="bold" text-anchor="middle">釋放 100% 大腦算力給思考</text>
+
+                <text x="282" y="98" fill="#00A9F4" font-size="26" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Step 2 -->
+                <rect x="302" y="25" width="285" height="135" rx="5" fill="#163656" stroke="#2251FF" stroke-width="2"/>
+                <text x="444" y="50" fill="#FDE047" font-size="13" font-weight="bold" text-anchor="middle">STEP 2｜腦中同步運轉「動機四問」</text>
+                <text x="318" y="75" fill="#FFFFFF" font-size="11">① 他為什麼「用這幾個字」？</text>
+                <text x="318" y="96" fill="#FFFFFF" font-size="11">② 他為什麼「講這個話」？</text>
+                <text x="318" y="117" fill="#FFFFFF" font-size="11">③ 他的「動機是什麼」？</text>
+                <text x="318" y="138" fill="#34D399" font-size="11" font-weight="bold">④ 他「想要我做什麼」？</text>
+
+                <text x="607" y="98" fill="#00A9F4" font-size="26" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Step 3 -->
+                <rect x="627" y="25" width="230" height="135" rx="5" fill="#0A2540" stroke="#10B981" stroke-width="2"/>
+                <text x="742" y="50" fill="#34D399" font-size="13" font-weight="bold" text-anchor="middle">STEP 3｜肢體語言解碼</text>
+                <text x="742" y="76" fill="#FFFFFF" font-size="11" text-anchor="middle">每個人的肢體語言</text>
+                <text x="742" y="96" fill="#FFFFFF" font-size="11" text-anchor="middle">都透露真實訊息与情緒</text>
+                <text x="742" y="122" fill="#A7F3D0" font-size="11" font-weight="bold" text-anchor="middle">「聽一個人講話，</text>
+                <text x="742" y="140" fill="#A7F3D0" font-size="11" font-weight="bold" text-anchor="middle">我比一般人了解的多！」</text>
+              </svg>
+              <figcaption>▲ Exhibit 7A：張忠謀「看人說話、不寫筆記」的深度傾聽閉環——不寫筆記才有時間去想對方的動機（p.6）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 7B: Dual Scenario Note-taking Table -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 7B ｜ CONTEXTUAL NOTE-TAKING DISCIPLINE</span><span>CHAPTER 01 (P.6) VS. CHAPTER 07 (P.27)</span></div>
+              <div class="mck-exhibit-title">張忠謀在「會議傾聽」與「獨處閱讀客戶資訊」兩大場景之筆記紀律對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">應用場景</th>
+                      <th style="width: 22%;">是否做筆記？</th>
+                      <th style="width: 34%;">具體操作方式（專刊原話）</th>
+                      <th style="width: 24%;">創造的管理與商業效益</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>場景 A：開會與當面傾聽</strong><br><span class="mini-tag">Ch 01 (p.6)</span></td>
+                      <td><strong style="color:#DC2626;">❌ 從來不寫筆記</strong><br>（頂多寫兩個字）</td>
+                      <td>「我總是在『看』那個人講話，我從來不寫筆記，除非我要做什麼事情、怕會議後忘了，才頂多寫兩個字。你不寫筆記，真正的注意聽，就有時間去想（動機四問）……看對方的肢體語言。」</td>
+                      <td>穿透字面報告，精準識破部屬或談判對手的真實動機、政治意圖與肢體破綻。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>場景 B：獨處閱讀客戶資訊</strong><br><span class="mini-tag">Ch 07 (p.27)</span></td>
+                      <td><strong style="color:#0D9488;">✅ 一定會記筆記</strong><br>（且每兩周溫習）</td>
+                      <td>「張忠謀每天至少花 2 到 4 小時閱讀。<strong>如果是讀客戶的資訊，他一定會記筆記，每個月或每兩周溫習一次</strong>，久而久之就會記住重點。」</td>
+                      <td>見客戶時對其業務瞭若指掌，連客戶都驚嘆：<strong>「你怎麼會知道這麼多？」</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.6) ＆ Ch 07 (p.27) 交叉比對</span>
+                <span>McKinsey Briefing Deck • Slide 07</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>開會時別當低頭抄筆記的記錄員，唯有抬頭專注「看」對方講話，才有腦力思考其背後的四層動機。</p>
+              <p><strong>② 補充說明：</strong>請學員注意專刊 p.6 與 p.27 的精妙對比：張忠謀開會聽人講話「從不寫筆記」，但自己私下閱讀客戶書面資料時「一定會記筆記，而且每兩周或每個月溫習一次」。</p>
+              <p><strong>③ 下一頁轉場：</strong>學會了如何傾聽與洞察人心，接下來總經理該如何組建團隊與領導部屬？請看 Slide 08。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 08 ==================== -->
+        <section class="slide-card" id="slide-leadership-team">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 08 / 16 ｜ FUNDAMENTALS 06: TEAM BUILDING & LEADERSHIP</div>
+              <h2 class="slide-title">老班底只會把你局限在小圈子！領導者靠「嚴格但公平無私」凝聚團隊，並靠「明確方向」贏得長久追隨</h2>
+            </div>
+            <span class="priority-badge badge-p2">⚡ P2 團隊與領導</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 8A: Leadership Equation & 1964 Case SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 8A ｜ THE TWO DEFINITIONS OF ANY LEADER & 1964 TI TURNAROUND</span><span>INCLUSION OVER CLIQUES</span></div>
+              <svg viewBox="0 0 880 190" width="100%" style="max-width:850px;">
+                <rect width="880" height="190" rx="6" fill="#051C2C"/>
+                <!-- Pillar 1 -->
+                <rect x="22" y="22" width="265" height="146" rx="5" fill="#0A2540" stroke="#2251FF" stroke-width="2"/>
+                <text x="154" y="46" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">定義一｜有人願意跟隨你</text>
+                <text x="154" y="68" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">（凝聚團隊向心力的能力）</text>
+                <text x="36" y="92" fill="#CBD5E1" font-size="11">• 從不帶老班底（TI只帶祕書/台積電0人）</text>
+                <text x="36" y="112" fill="#CBD5E1" font-size="11">• 跳脫小圈子：要包容，再建一個大圈子</text>
+                <text x="36" y="132" fill="#FDE047" font-size="11" font-weight="bold">• 對同仁可嚴格，但絕對公平、無私心</text>
+
+                <text x="304" y="98" fill="#00A9F4" font-size="24" font-weight="bold" text-anchor="middle">×</text>
+
+                <!-- Pillar 2 -->
+                <rect x="322" y="22" width="255" height="146" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2"/>
+                <text x="449" y="46" fill="#7DD3FC" font-size="13" font-weight="bold" text-anchor="middle">定義二｜知道往哪個方向走</text>
+                <text x="449" y="68" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">（引領團隊致勝的戰略方向）</text>
+                <text x="336" y="95" fill="#CBD5E1" font-size="11">• 假如不知道往哪個方向走，</text>
+                <text x="336" y="115" fill="#CBD5E1" font-size="11">  或方向不成功，即使剛開始</text>
+                <text x="336" y="135" fill="#FCA5A5" font-size="11" font-weight="bold">  暫時跟著你的人，後來也不追隨了！</text>
+
+                <!-- Right Box: 1964 Case -->
+                <rect x="595" y="22" width="265" height="146" rx="5" fill="#163656" stroke="#F59E0B" stroke-width="2"/>
+                <text x="727" y="46" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">🏛️ 1964 初掌 3,000 名德州人</text>
+                <text x="609" y="70" fill="#FFFFFF" font-size="11">• 背景：全 TI 唯一講中文，德州人恐慌</text>
+                <text x="609" y="90" fill="#FFFFFF" font-size="11">• 破局：召集主要主管，用流利帶文學</text>
+                <text x="609" y="108" fill="#FFFFFF" font-size="11">  氣質的英文演講，並開放提問</text>
+                <text x="609" y="130" fill="#34D399" font-size="11" font-weight="bold">• 態度：對研發工程自信＋對行銷財務謙虛</text>
+                <text x="609" y="150" fill="#A7F3D0" font-size="10" font-weight="bold">➔ 一次會議穩定人心（「他不是妖精！」）</text>
+              </svg>
+              <figcaption>▲ Exhibit 8A：張忠謀對領導者的兩大定義（有人跟隨 × 知道方向）與 1964 年德州儀器 3,000 人部門破局實錄（p.6, 10–12, 19）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 8B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 8B ｜ ZERO-CLIQUE LEADERSHIP POLICY</span><span>CHAPTERS 01, 02 & 04</span></div>
+              <div class="mck-exhibit-title">「傳統帶班底小圈子模式」與「張忠謀零班底大包容模式」對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 22%;">管理情境</th>
+                      <th style="width: 38%;">傳統高管「帶老班底」迷思</th>
+                      <th style="width: 40%;">張忠謀「零班底・絕對公平」鐵律</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>在 TI 內部調動事業部</strong><br>(Ch 01 p.6)</td>
+                      <td>換單位時把舊部門的親信幹部整批帶過去助陣。</td>
+                      <td><strong>「在 TI 我換不同事業單位也沒有帶人過去，只會帶祕書。」</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>回台灣創立台積電</strong><br>(Ch 01 p.6, Ch 02 p.12)</td>
+                      <td>前同事與幾位 TI 華裔同事紛紛勸說：「你沒有班底，在台灣這種地方做事不行！」並表達想跟隨加入。</td>
+                      <td><strong>「我剛到台灣時沒帶任何人，也沒有請他們。」</strong>認為有班底帶來帶去都是小圈子，<strong>要包容，再建一個大圈子</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>對待下屬的獎懲標準</strong><br>(Ch 02 p.12, Ch 04 p.19)</td>
+                      <td>對自己人寬容偏袒、對原團隊嚴苛防範，導致派系分裂。</td>
+                      <td><strong>「你可以相當嚴格地對待你的同仁，但是一定要公平，而且不用私人，不能有私心，才能真正凝聚團隊的能力跟士氣。」</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.6)、Ch 02 (p.10–12)、Ch 04 (p.19)</span>
+                <span>McKinsey Briefing Deck • Slide 08</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>領導者千萬別帶「老班底」把自己鎖在小圈子裡；唯有不用私人、絕對公平，加上正確的戰略方向，才能讓團隊死心塌地跟隨。</p>
+              <p><strong>② 補充說明：</strong>1964 年張忠謀 33 歲升任 TI 業務單位總經理，管 3,000 人（其中 2,500 人是作業員），德州人聽說華人來當總經理很恐慌；他靠一場流利英文演說展現「工程自信＋行銷謙虛」瞬間收服人心（p.10-11）。</p>
+              <p><strong>③ 下一頁轉場：</strong>當團隊凝聚完畢，領導者就要指出「方向（策略）」——我們進入 Section III（Slide 09），看張忠謀如何訂出「一舉讓對手絕望」的策略！</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 09 ==================== -->
+        <section class="slide-card" id="slide-strategy-despair">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 09 / 16 ｜ STRATEGY RULE 01: LEARNING CURVE & COMPETITIVE DESPAIR</div>
+              <h2 class="slide-title">策略比基本功更高一層：善用「學習曲線」主動降價讓對手絕望，或在無人競爭領域「親手創造市場」</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 致勝策略</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 9A: Learning Curve SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 9A ｜ 1974 TI TTL LEARNING CURVE STRATEGY & JACK WELCH'S NO.1/NO.2 RULE</span><span>MAKE COMPETITORS DESPAIR</span></div>
+              <svg viewBox="0 0 880 195" width="100%" style="max-width:850px;">
+                <rect width="880" height="195" rx="6" fill="#051C2C"/>
+                <!-- Left Curve Plot -->
+                <line x1="55" y1="160" x2="420" y2="160" stroke="#94A3B8" stroke-width="2"/>
+                <line x1="55" y1="160" x2="55" y2="25" stroke="#94A3B8" stroke-width="2"/>
+                <text x="240" y="182" fill="#CBD5E1" font-size="11" font-weight="bold" text-anchor="middle">累積產量與市占規模 (Cumulative Volume) ➔</text>
+                <text x="22" y="95" fill="#CBD5E1" font-size="11" font-weight="bold" text-anchor="middle" transform="rotate(-90 22,95)">單位成本與價格 ➔</text>
+
+                <!-- 50% Gross Margin Threshold Line -->
+                <line x1="55" y1="65" x2="415" y2="65" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="5 3"/>
+                <text x="295" y="56" fill="#FCA5A5" font-size="10" font-weight="bold">半導體同業生存線：需 50%+ 毛利做 RD</text>
+
+                <!-- Learning Curve -->
+                <path d="M 75 40 Q 170 125, 395 145" fill="none" stroke="#00A9F4" stroke-width="4"/>
+                <circle cx="150" cy="88" r="6" fill="#F59E0B"/>
+                <circle cx="310" cy="132" r="6" fill="#10B981"/>
+                <text x="230" y="112" fill="#38BDF8" font-size="11" font-weight="bold">1974 張忠謀主動持續降價 TTL</text>
+                <text x="260" y="150" fill="#34D399" font-size="11" font-weight="bold">➔ 對手無利潤做 RD，徹底絕望退出！</text>
+
+                <!-- Right Box: Newspaper Headline & Jack Welch -->
+                <rect x="445" y="20" width="415" height="155" rx="5" fill="#0A2540" stroke="#2251FF" stroke-width="2"/>
+                <text x="652" y="45" fill="#FDE047" font-size="13" font-weight="bold" text-anchor="middle">📰 1974 報紙標題："TI continue cutting prices on TTL: Chang"</text>
+                <text x="462" y="72" fill="#FFFFFF" font-size="11">• 戰略邏輯：透過學習曲線（Learning Curve）持續降價擴大市占</text>
+                <text x="462" y="94" fill="#FFFFFF" font-size="11">• 對標奇異（GE）前執行長傑克・威爾許（Jack Welch）：</text>
+                <text x="462" y="114" fill="#7DD3FC" font-size="11" font-weight="bold">  同樣信奉學習曲線——「事業單位 5 年內若不能取得業界</text>
+                <text x="462" y="132" fill="#7DD3FC" font-size="11" font-weight="bold">  前一大或前二大（No.1 or No.2），乾脆停止事業！」(p.7)</text>
+                <text x="462" y="156" fill="#34D399" font-size="11" font-weight="bold">• 台積電新局：在專業晶圓代工「無人之境」親手創造市場 (p.16)</text>
+              </svg>
+              <figcaption>▲ Exhibit 9A：1974 年張忠謀在德州儀器發動 TTL 學習曲線降價戰（「一舉讓對手絕望」）與威爾許數一數二原則（p.6–7, 16）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 9B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 9B ｜ TWO ARCHETYPES OF WINNING STRATEGY</span><span>TI (1974) VS. TSMC (1987)</span></div>
+              <div class="mck-exhibit-title">張忠謀兩大歷史級戰略戰役對照：既有市場殲滅戰 vs. 無人市場開創戰</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">戰略維度</th>
+                      <th style="width: 40%;">戰役一：1974 德州儀器 TTL 降價戰 (Ch 01 p.6–7)</th>
+                      <th style="width: 40%;">戰役二：1987 台積電專業晶圓代工 (Ch 03 p.16)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>市場競爭環境</strong></td>
+                      <td>標準型電晶體邏輯（TTL）有多家競爭對手，同業皆仰賴 <strong>50% 以上毛利</strong>支撐巨額研發與設計（RD）。</td>
+                      <td>台灣第一家專業晶圓代工：「如果做一般半導體就很普通。」當時<strong>沒有競爭者，「沒有敵人就是如入無人之境」</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>核心戰略難題</strong></td>
+                      <td>既然半導體需要 50% 以上毛利做 RD，為什麼領先者還要主動持續降價？</td>
+                      <td><strong>「但沒有競爭者也是個問題，因為沒有市場！」</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>張忠謀致勝手段</strong></td>
+                      <td>善用<strong>學習曲線（Learning Curve）</strong>持續降低 TTL 價格，以規模壓低成本，<strong>一舉讓對手對追趕徹底絕望</strong>。</td>
+                      <td>將挑戰鎖定為<strong>「創造市場」</strong>——正因少了競爭者干擾，台積電有更多空間積極投入市場開發，奠定世界第一地位。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.6–7)、Ch 03 (p.16)</span>
+                <span>McKinsey Briefing Deck • Slide 09</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>經營公司如同作戰，在既有市場要靠學習曲線「一舉讓對手絕望」，在藍海領域則要把握無敵人的窗口期「全力創造市場」。</p>
+              <p><strong>② 補充說明：</strong>張忠謀在 p.7 特別提到奇異前執行長傑克・威爾許（Jack Welch）也信奉學習曲線，若事業單位 5 年內無法成為前一大或前二大就乾脆關掉。</p>
+              <p><strong>③ 下一頁轉場：</strong>策略如此重要，那麼新官上任第一天就該馬上訂策略嗎？訂策略時用什麼工具最有效？請看 Slide 10。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 10 ==================== -->
+        <section class="slide-card" id="slide-strategy-3w">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 10 / 16 ｜ STRATEGY RULE 02: ONBOARDING SEQUENCE & THE 3W PRINCIPLE</div>
+              <h2 class="slide-title">新上任總經理「先別談策略」！待凝聚團隊並摸透體制後，把 Who・What・When 三個 W 訂好就能回家睡午覺</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 3W 原則</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 10A: Onboarding Sequence & 3W SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 10A ｜ CEO STRATEGY SEQUENCING & THE 3W EXECUTION FRAMEWORK</span><span>SLEEP SOUNDLY AFTER 3W</span></div>
+              <svg viewBox="0 0 880 185" width="100%" style="max-width:850px;">
+                <rect width="880" height="185" rx="6" fill="#051C2C"/>
+                <!-- Phase 1 -->
+                <rect x="18" y="24" width="190" height="136" rx="5" fill="#0A2540" stroke="#64748B" stroke-width="1.5"/>
+                <text x="113" y="48" fill="#94A3B8" font-size="12" font-weight="bold" text-anchor="middle">PHASE 1｜新官上任初期</text>
+                <text x="113" y="72" fill="#FCA5A5" font-size="13" font-weight="bold" text-anchor="middle">🚫 先別談策略！</text>
+                <text x="113" y="96" fill="#FFFFFF" font-size="11" text-anchor="middle">1. 先凝聚團隊能力</text>
+                <text x="113" y="116" fill="#FFFFFF" font-size="11" text-anchor="middle">2. 了解整個體制營運</text>
+                <text x="113" y="140" fill="#CBD5E1" font-size="10" text-anchor="middle">（很了解公司與人後再談）</text>
+
+                <text x="223" y="95" fill="#00A9F4" font-size="22" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Phase 2 -->
+                <rect x="238" y="24" width="200" height="136" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="1.5"/>
+                <text x="338" y="48" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">PHASE 2｜CEO 核心職責</text>
+                <text x="338" y="72" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">🌐 把外面的世界搬進來</text>
+                <text x="338" y="96" fill="#CBD5E1" font-size="11" text-anchor="middle">• 動員內部資源迎戰外部</text>
+                <text x="338" y="116" fill="#CBD5E1" font-size="11" text-anchor="middle">• 做公司內外最重要的連結</text>
+                <text x="338" y="140" fill="#34D399" font-size="10" font-weight="bold" text-anchor="middle">把客戶處理好，股東就開心</text>
+
+                <text x="453" y="95" fill="#00A9F4" font-size="22" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Phase 3: 3W -->
+                <rect x="468" y="24" width="392" height="136" rx="5" fill="#163656" stroke="#F59E0B" stroke-width="2.5"/>
+                <text x="664" y="48" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">PHASE 3｜掌管台積電 30 年「3W 策略原則」(p.16)</text>
+                <rect x="484" y="62" width="112" height="62" rx="4" fill="#051C2C" stroke="#38BDF8"/>
+                <text x="540" y="84" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">1. Who</text>
+                <text x="540" y="106" fill="#FFFFFF" font-size="10" text-anchor="middle">先找出主要負責的人</text>
+
+                <rect x="608" y="62" width="112" height="62" rx="4" fill="#051C2C" stroke="#FBBF24"/>
+                <text x="664" y="84" fill="#FBBF24" font-size="13" font-weight="bold" text-anchor="middle">2. What</text>
+                <text x="664" y="106" fill="#FFFFFF" font-size="10" text-anchor="middle">清楚做什麼事情</text>
+
+                <rect x="732" y="62" width="112" height="62" rx="4" fill="#051C2C" stroke="#34D399"/>
+                <text x="788" y="84" fill="#34D399" font-size="13" font-weight="bold" text-anchor="middle">3. When</text>
+                <text x="788" y="106" fill="#FFFFFF" font-size="10" text-anchor="middle">訂下目標達成時間</text>
+
+                <text x="664" y="146" fill="#FDE047" font-size="11" font-weight="bold" text-anchor="middle">「公司的事情通通把這三個 W 訂好，就可以回家睡午覺了！」</text>
+              </svg>
+              <figcaption>▲ Exhibit 10A：張忠謀的策略節奏與 3W 原則——先懂人與公司，再將外部世界連入內部，最後以 Who/What/When 完成當責部署（p.13, 16, 20）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 10B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 10B ｜ THE 3W STRATEGY EXECUTION CHECKLIST</span><span>CHAPTERS 02, 03 & 04</span></div>
+              <div class="mck-exhibit-title">張忠謀「3W 策略執行法則」三大要素與企業常見失敗反例對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 18%;">3W 核心要素</th>
+                      <th style="width: 34%;">張忠謀定義與執行標準 (Ch 03 p.16)</th>
+                      <th style="width: 28%;">❌ 常見組織失敗反例</th>
+                      <th style="width: 20%;">✅ CEO 檢核問題</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>第一個 W：Who</strong><br>（誰來負責）</td>
+                      <td><strong>「要先找出主要負責的人！」</strong>（排在 3W 第一順位，有人當責策略才不會懸空）。</td>
+                      <td>「由業務部、工程部與財會部共同負責」（多人共同負責＝沒人負責）。</td>
+                      <td>誰是這項策略唯一成敗當責的 Owner？</td>
+                    </tr>
+                    <tr>
+                      <td><strong>第二個 W：What</strong><br>（做什麼事）</td>
+                      <td><strong>「要清楚做什麼事情！」</strong>（明確界定戰略行動、資源配置與預期成果）。</td>
+                      <td>只喊「提升競爭力、強化數位轉型」等空洞口號，無具體交付標的。</td>
+                      <td>要交付的具體行動與量化指標（如 >20% ROE）是什麼？</td>
+                    </tr>
+                    <tr>
+                      <td><strong>第三個 W：When</strong><br>（何時完成）</td>
+                      <td><strong>「最後一個 When 要訂下目標達成的時間！」</strong></td>
+                      <td>「盡快推動、明年陸續完成」，缺乏明確檢核時點。</td>
+                      <td>確切的里程碑與最終達成期限是哪一天？</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 02 (p.13)、Ch 03 (p.16)、Ch 04 (p.20)</span>
+                <span>McKinsey Briefing Deck • Slide 10</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>新任總經理切忌急著談策略，應先凝聚團隊並摸透體制；而好策略的執行極其精簡——訂好 Who、What、When 三個 W 即可。</p>
+              <p><strong>② 補充說明：</strong>張忠謀在清大演講（p.13）強調：「CEO 最大的責任就是把外面的世界搬到公司裡面來，動員公司的資源來迎接外部挑戰。」</p>
+              <p><strong>③ 下一頁轉場：</strong>比策略更高一層的，是金字塔頂端的「商業模式」——請看 Slide 11，張忠謀如何用星巴克、Google 與台積電解構商業模式！</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 11 ==================== -->
+        <section class="slide-card" id="slide-business-model">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 11 / 16 ｜ BUSINESS MODEL INNOVATION: CUSTOMER-CENTRIC DEFINITION</div>
+              <h2 class="slide-title">台積電最重要的革新是商業模式：商業模式是以「客戶是誰」為定，而非以「產品是什麼」為定！</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 商業模式</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 11A: Business Model Comparison SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 11A ｜ PARADIGM SHIFT: PRODUCT-DEFINED VS. CUSTOMER-DEFINED BUSINESS MODEL</span><span>CHAPTER 01 (P.3, 7-8)</span></div>
+              <svg viewBox="0 0 880 195" width="100%" style="max-width:850px;">
+                <rect width="880" height="195" rx="6" fill="#051C2C"/>
+                <!-- Left: Traditional IDM -->
+                <rect x="22" y="22" width="390" height="150" rx="5" fill="#7F1D1D" stroke="#F87171" stroke-width="1.5"/>
+                <text x="217" y="46" fill="#FCA5A5" font-size="13" font-weight="bold" text-anchor="middle">❌ 傳統思維：從「產品是什麼」定義</text>
+                <text x="217" y="74" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">假如我們是一間「半導體產品公司 (IDM)」</text>
+                <text x="217" y="100" fill="#FEE2E2" font-size="11" text-anchor="middle">• 賣的產品：標準或自有品牌晶片</text>
+                <text x="217" y="122" fill="#FEE2E2" font-size="11" text-anchor="middle">• 我們的客戶會是：「電腦公司 / 系統廠」</text>
+                <text x="217" y="148" fill="#FDE047" font-size="11" font-weight="bold" text-anchor="middle">⚠️ 結果：做一般半導體很普通，且與其他晶片廠直接廝殺</text>
+
+                <text x="440" y="102" fill="#00A9F4" font-size="26" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Right: TSMC Foundry -->
+                <rect x="468" y="22" width="390" height="150" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2.5"/>
+                <text x="663" y="46" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">✅ 張忠謀革新：從「客戶是誰」定義</text>
+                <text x="663" y="74" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">台積電是「半導體製造服務（專業晶圓代工）」</text>
+                <text x="663" y="100" fill="#E0F2FE" font-size="11" text-anchor="middle">• 我們的客戶是：「別的半導體公司（IC設計/IDM）」</text>
+                <text x="663" y="122" fill="#E0F2FE" font-size="11" text-anchor="middle">• 核心承諾：提供製造服務，永不與客戶競爭</text>
+                <text x="663" y="148" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">🏆 結果：從 120 人躍升 5 萬人，開創全球晶圓代工盛世</text>
+              </svg>
+              <figcaption>▲ Exhibit 11A：張忠謀首度公開台積電創立時被列為治理機密的核心思維——以「客戶是半導體公司」定義商業模式（p.3, 7）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 11B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 11B ｜ THREE WORLD-CLASS BUSINESS MODELS ANALYZED BY MORRIS CHANG</span><span>TSMC • STARBUCKS • GOOGLE</span></div>
+              <div class="mck-exhibit-title">張忠謀於演講中深度剖析之三大世界級商業模式對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 20%;">標竿企業</th>
+                      <th style="width: 26%;">一般人看到的「產品表象」</th>
+                      <th style="width: 32%;">張忠謀洞察的「真正客戶是誰」</th>
+                      <th style="width: 22%;">商業模式創造的驚人效益</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>1. 台積電 (TSMC)</strong><br>(Ch 01 p.3, 7)</td>
+                      <td>晶圓製造工廠（生產半導體晶圓）。</td>
+                      <td><strong>客戶是「別的半導體公司」</strong>（而非電腦公司），定位為「半導體製造服務」。</td>
+                      <td>54歲創辦時 120 人 ➔ 87歲退休 5 萬人，成為世界最大晶圓代工廠。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>2. 星巴克 (Starbucks)</strong><br>(Ch 01 p.8)</td>
+                      <td>賣咖啡飲品的「咖啡館」。</td>
+                      <td>張忠謀 90 年代剛回台時最崇拜的商業模式：<strong>客戶不是隨意喝杯咖啡就走的人，而是「懂得享受生活的人」</strong>。</td>
+                      <td>把一杯原本賣 <strong>3、4 毛錢</strong>的咖啡，成功漲到 <strong>2.5 美元</strong>（逾 6 倍溢價）。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>3. Google ＆ 臉書</strong><br>(Ch 01 p.8)</td>
+                      <td>提供大眾免費搜尋與社交的科技平台。</td>
+                      <td><strong>「大家雖然都用 Google，但我們不是它的客戶，我們是它的工具！」</strong>真正的客戶是<strong>廣告主</strong>。</td>
+                      <td>從免費工具用戶身上獲取資訊，再去做高毛利的廣告生意。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 01 (p.3, 7–8)</span>
+                <span>McKinsey Briefing Deck • Slide 11</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>商業模式不是由你做什麼產品決定，而是由「誰是你的付費客戶」來決定。</p>
+              <p><strong>② 補充說明：</strong>張忠謀在 p.8 用星巴克（3、4毛錢咖啡賣 2.5 美元給懂得享受生活的人）與 Google（免費使用者只是工具，廣告主才是客戶）完美詮釋了商業模式的威力。</p>
+              <p><strong>③ 下一頁轉場：</strong>訂定了「專業晶圓代工」商業模式後，台積電如何用策略將其落地？請看 Slide 12——塵封 20 年首度公開的 1998 年唯一手寫機密策略手稿！</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 12 ==================== -->
+        <section class="slide-card" id="slide-handwritten-1998">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 12 / 16 ｜ THE 1998 SECRET HANDWRITTEN STRATEGY MEMO</div>
+              <h2 class="slide-title">解密 1998 年唯一手寫機密策略：除低價外全面超越對手、取得 First & Last Look，2010 營收達 130 億美元</h2>
+            </div>
+            <span class="priority-badge badge-p1">🔥 P1 鎮館手稿</span>
+          </div>
+          <div class="slide-body">
+            <div class="grid-2" style="align-items: stretch;">
+              <!-- Visual Exhibit 12A: Original 1998 Handwritten Strategy Image -->
+              <figure class="slide-media" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div class="mck-exhibit-label"><span>EXHIBIT 12A ｜ ORIGINAL 1998 HANDWRITTEN STRATEGY SLIDE</span><span>DECLASSIFIED GOVERNANCE SECRET</span></div>
+                <img src="assets/handwritten_strategy_1998.png" alt="張忠謀 1998 年唯一手寫策略投影片" style="max-height: 290px; width: auto; object-fit: contain;">
+                <div class="callout callout-core" style="margin: 10px 0 0; text-align: left; font-size: 0.83rem; padding: 10px 14px;">
+                  <strong>🔑 兩大執行護城河（p.8）：</strong><br>
+                  1. <strong>取得 First and Last Look（優先及最終採購洽談權）</strong>：除了低價以外，在其他所有領域都超越對手！<br>
+                  2. <strong>全員銷售文化</strong>：建立以市場行銷與服務為核心的文化，<strong>每位員工既是專業的工程師、會計師，也是銷售員（Sales person）</strong>！
+                </div>
+                <figcaption>▲ Exhibit 12A：張忠謀於玉山科技協會公開 1998 年親手撰寫之公司治理機密投影片（圖／台灣玉山科技協會，p.7–8）。</figcaption>
+              </figure>
+
+              <!-- Table Exhibit 12B: 7 Customer Needs & Target vs Actual -->
+              <div class="mck-exhibit-box" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div>
+                  <div class="mck-exhibit-label"><span>EXHIBIT 12B ｜ FULL TRANSCRIPTION & 2010 TARGET VS. ACTUAL</span><span>SATISFYING CUSTOMER NEEDS</span></div>
+                  <div class="mck-exhibit-title">1998 手寫策略「滿足客戶七大需求」中英對照與 2010 財務戰果檢驗表</div>
+                  <table class="custom-table">
+                    <thead>
+                      <tr>
+                        <th style="width: 12%;">項次</th>
+                        <th style="width: 48%;">1998 投影片英文原稿 (I. Satisfying Customer Needs)</th>
+                        <th style="width: 40%;">張忠謀策略內涵與財務目標驗證</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>(1) 技術</strong></td>
+                        <td><em>Technology that allows the customer to out compete, or at least be competitive with, his competitors.</em></td>
+                        <td>提供客戶<strong>可超越對手、或至少與之匹敵</strong>的技術。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>(2) 彈性</strong></td>
+                        <td><em>Flexibility in TSMC's ability to respond to demand.</em></td>
+                        <td><strong>靈活回應</strong>客戶的產能與技術需求。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>(3) 價格</strong></td>
+                        <td><em>Low price.</em></td>
+                        <td>低價（但強調<strong>除低價外，其他領域都要超越對手</strong>）。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>(4) 時程</strong></td>
+                        <td><em>Short cycle time from tapeout to finished production wafers.</em></td>
+                        <td><strong>縮短量產時程</strong>（從設計定案 Tapeout 到產出晶圓）。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>(5) 品質</strong></td>
+                        <td><em>Quality & reliability.</em></td>
+                        <td><strong>品質可靠</strong>（高良率與長期可靠度）。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>(6)-(7) 服務</strong></td>
+                        <td><em>Design services to help customer to outcompete... & Seamless communication.</em></td>
+                        <td>設計服務、<strong>一站式（Turn-key）服務与可無縫溝通</strong>。</td>
+                      </tr>
+                      <tr>
+                        <td><strong>🏆 戰果</strong></td>
+                        <td><strong>1998 目標</strong>：創造 <strong>>20% ROE</strong>、世界最大晶圓代工廠、2010 年營收 <strong>100 億美元</strong>。</td>
+                        <td><strong>2010 實績</strong>：實際營收高達 <strong>130 億美元</strong>（超標 30%）！「唯一不滿意的人，就是我老婆。」(p.8)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="mck-slide-source">
+                  <span>資料來源：本專刊 Ch 01 (p.7–8) 投影片原圖與內文對照</span>
+                  <span>McKinsey Briefing Deck • Slide 12</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>1998 年手寫策略證明，台積電靠「滿足客戶 7 大需求、取得 First & Last Look 與全員銷售文化」，超額實現 >20% ROE 與 130 億美元營收。</p>
+              <p><strong>② 補充說明：</strong>請注意手稿中第(1)、(2)、(4)、(5)、(6)、(7)項旁邊都有張忠謀手寫勾號或星號，唯獨第(3)項 Low price 沒有打勾——完美對應他在演講說的「除了低價以外，要在其他領域都超越競爭對手」（p.7-8）。</p>
+              <p><strong>③ 下一頁轉場：</strong>隨著台積電成長為數萬人大企業，如何避免官僚扼殺創新？退休交棒又如何設計公司治理？請看 Slide 13。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 13 ==================== -->
+        <section class="slide-card" id="slide-innovation-governance">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 13 / 16 ｜ INNOVATION APPEAL & DUAL-LEADERSHIP GOVERNANCE</div>
+              <h2 class="slide-title">建立「獎賞賺錢創新、不罰虧本創新」的直通 CEO 上訴權，並以「雙首長平行制」共管每年 3,000 億資本投資</h2>
+            </div>
+            <span class="priority-badge badge-p3">🌱 P3 創新與治理</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 13A: Innovation Appeal & Co-CEO Governance SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 13A ｜ BOTTOM-UP INNOVATION APPEAL & CO-CEO CAPITAL GOVERNANCE</span><span>CHAPTER 03 (P.15-17)</span></div>
+              <svg viewBox="0 0 880 190" width="100%" style="max-width:850px;">
+                <rect width="880" height="190" rx="6" fill="#051C2C"/>
+                <!-- Left: Innovation Appeal -->
+                <rect x="20" y="20" width="405" height="150" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2"/>
+                <text x="222" y="44" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">💡 機制一：直通 CEO 的「創新上訴權」(p.15–16)</text>
+                <text x="36" y="68" fill="#FFFFFF" font-size="11">• 南開中學校訓「日新月異」＝ 創新（須實際執行而非僅 IDEA）</text>
+                <text x="36" y="90" fill="#FDE047" font-size="11" font-weight="bold">• 鐵律：要獎賞成功賺錢的創新，但不會懲罰虧本的創新！</text>
+                <text x="36" y="112" fill="#CBD5E1" font-size="11">• 痛點：大企業階層多，基層創新常在每一層關卡被回絕</text>
+                <text x="36" y="134" fill="#34D399" font-size="11" font-weight="bold">• 解方：每個員工都有上訴機會，「最高可申訴到我這邊！」</text>
+                <text x="36" y="154" fill="#A7F3D0" font-size="10">  （多個被層層回絕的案例，最後由張忠謀親自准許並大獲成功）</text>
+
+                <!-- Right: Dual Leadership -->
+                <rect x="445" y="20" width="415" height="150" rx="5" fill="#163656" stroke="#F59E0B" stroke-width="2"/>
+                <text x="652" y="44" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">🏛️ 機制二：台積電「雙首長平行領導制」(p.17)</text>
+                <rect x="460" y="56" width="185" height="82" rx="4" fill="#051C2C" stroke="#38BDF8"/>
+                <text x="552" y="76" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">董事長｜劉德音</text>
+                <text x="552" y="96" fill="#FFFFFF" font-size="10" text-anchor="middle">• 對外代表公司</text>
+                <text x="552" y="114" fill="#FFFFFF" font-size="10" text-anchor="middle">• 每年4次董事會（每次700-</text>
+                <text x="552" y="128" fill="#FDE047" font-size="10" font-weight="bold" text-anchor="middle">  800億）為投資計畫護航</text>
+
+                <rect x="660" y="56" width="185" height="82" rx="4" fill="#051C2C" stroke="#34D399"/>
+                <text x="752" y="76" fill="#34D399" font-size="12" font-weight="bold" text-anchor="middle">總裁 (CEO)｜魏哲家</text>
+                <text x="752" y="96" fill="#FFFFFF" font-size="10" text-anchor="middle">• 面對客戶供應商「拿生意」</text>
+                <text x="752" y="114" fill="#FFFFFF" font-size="10" text-anchor="middle">• 負責內部決策，擬定每年</text>
+                <text x="752" y="128" fill="#FDE047" font-size="10" font-weight="bold" text-anchor="middle">  3,000 多億元資本投資計畫</text>
+
+                <text x="652" y="156" fill="#FFFFFF" font-size="10" font-weight="bold" text-anchor="middle">🤝 合作程度必須「如同在同一間辦公室辦公」！</text>
+              </svg>
+              <figcaption>▲ Exhibit 13A：台積電反官僚的「創新越級上訴制」與退休交棒的「雙首長平行領導制」（p.15–17）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 13B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 13B ｜ CEO DEFINITION, CAPITAL ALLOCATION & NATIONAL POLICY INSIGHT</span><span>CHAPTER 03</span></div>
+              <div class="mck-exhibit-title">張忠謀對「CEO 職稱誤解、每年 3,000 億資本配置、創新與分配衝突」三大洞見表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 24%;">治理議題</th>
+                      <th style="width: 42%;">張忠謀核心論點與原話精粹 (Ch 03 p.16–17)</th>
+                      <th style="width: 34%;">制度設計與決策啟示</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>1. 台灣把 CEO 翻成「執行長」是誤解</strong></td>
+                      <td>「台灣把 CEO 翻譯成執行長，這是對 CEO 的誤解，<strong>CEO 應該是執行跟策略都要管，執行只是 CEO 一半的工作</strong>，因為很多老闆不願意讓下面的人通通都管，只願意讓他執行一下就好。」</td>
+                      <td>因此台積電的 CEO 叫做<strong>「總裁」</strong>，完整肩負策略擬定與經營執行雙重職責。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>2. 台積電最重要的事：資本投資</strong></td>
+                      <td>「台積電最重要的事是資本投資。」每年有 <strong>3,000 多億元</strong>資本投資，由<strong>總裁擬定計畫</strong>交每年四次董事會通過（每次提 <strong>700～800 億元</strong>），<strong>董事長要為這些計畫護航</strong>。</td>
+                      <td>確立雙首長分工：總裁對外拿生意並擬定 3,000 億投資，董事長在董事會全力護航。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>3. 建言林全院長：創新 vs. 分配</strong></td>
+                      <td>針對政府「創新、就業、分配」口號，建言不能缺少<strong>「成長」</strong>——因為<strong>創新和分配是有衝突的</strong>，鼓勵創新必須給高獎勵（讓創新者收入比非創新者多），而有成長才能解決就業問題。</td>
+                      <td>企業若搞齊頭式分配就無法激發創新；必須重賞成功賺錢的創新以驅動成長。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 03 (p.15–17) 三三會演講實錄</span>
+                <span>McKinsey Briefing Deck • Slide 13</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>要維持大企業創新活力，必須「重賞成功創新、不罰失敗創新並開放直通 CEO 上訴」；而 CEO 必須同時管策略與執行。</p>
+              <p><strong>② 補充說明：</strong>張忠謀在 p.15 也坦言，54 歲剛回台灣時，他花了幾乎 10 年的時間在學習適應台灣的習慣、風俗與人事關係。</p>
+              <p><strong>③ 下一頁轉場：</strong>既然張忠謀前 36 年都在美國，他從美國帶回台灣最珍貴的資產究竟是什麼？請看 Slide 14。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 14 ==================== -->
+        <section class="slide-card" id="slide-global-talent">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 14 / 16 ｜ GLOBAL VISION, MODESTY & TALENT CIRCULATION</div>
+              <h2 class="slide-title">別再把「讀台大」視為 18 歲人生巔峰！張忠謀帶給台積電的是「世界觀、謙虛與人才循環（Circulation）」</h2>
+            </div>
+            <span class="priority-badge badge-p3">🌱 P3 國際觀與人才</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 14A: Talent Circulation Loop SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 14A ｜ TSMC'S "TRAINING BY CIRCULATION" TALENT FLYWHEEL</span><span>CHAPTERS 05 & 06 (P.21-25)</span></div>
+              <svg viewBox="0 0 880 190" width="100%" style="max-width:850px;">
+                <rect width="880" height="190" rx="6" fill="#051C2C"/>
+                <!-- Step 1 -->
+                <rect x="20" y="24" width="185" height="140" rx="5" fill="#0A2540" stroke="#38BDF8" stroke-width="1.5"/>
+                <text x="112" y="48" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">1. 台灣大學基礎教育</text>
+                <text x="112" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">紮實理工學科訓練</text>
+                <text x="112" y="96" fill="#FCA5A5" font-size="10" font-weight="bold" text-anchor="middle">⚠️ 破除盲點：</text>
+                <text x="112" y="114" fill="#FEE2E2" font-size="10" text-anchor="middle">別把 18 歲考上台大</text>
+                <text x="112" y="130" fill="#FEE2E2" font-size="10" text-anchor="middle">當成一生巔峰！</text>
+
+                <text x="220" y="95" fill="#00A9F4" font-size="22" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Step 2 -->
+                <rect x="235" y="24" width="210" height="140" rx="5" fill="#163656" stroke="#2251FF" stroke-width="2"/>
+                <text x="340" y="48" fill="#7DD3FC" font-size="12" font-weight="bold" text-anchor="middle">2. 留美深造與職場歷練</text>
+                <text x="340" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">與全球一流人才競爭切磋</text>
+                <text x="340" y="94" fill="#FDE047" font-size="11" font-weight="bold" text-anchor="middle">✨ 習得兩大無價資產：</text>
+                <text x="340" y="114" fill="#FFFFFF" font-size="11">① 世界觀 (Global Vision)</text>
+                <text x="340" y="134" fill="#FFFFFF" font-size="11">② 謙虛 (Modesty：畢業不提MIT)</text>
+
+                <text x="460" y="95" fill="#00A9F4" font-size="22" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Step 3 -->
+                <rect x="475" y="24" width="195" height="140" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="1.5"/>
+                <text x="572" y="48" fill="#38BDF8" font-size="12" font-weight="bold" text-anchor="middle">3. 回台從基層歷練晉升</text>
+                <text x="572" y="72" fill="#FFFFFF" font-size="11" text-anchor="middle">絕不直接空降副總！</text>
+                <text x="572" y="94" fill="#CBD5E1" font-size="10" text-anchor="middle">從工程師 ➔ 高級工程師</text>
+                <text x="572" y="112" fill="#CBD5E1" font-size="10" text-anchor="middle">➔ 工程經理 ➔ 一步步升副總</text>
+                <text x="572" y="136" fill="#34D399" font-size="10" font-weight="bold" text-anchor="middle">（20幾位副總以上逾半數如此）</text>
+
+                <text x="685" y="95" fill="#00A9F4" font-size="22" font-weight="bold" text-anchor="middle">➔</text>
+
+                <!-- Step 4 -->
+                <rect x="700" y="24" width="160" height="140" rx="5" fill="#064E3B" stroke="#10B981" stroke-width="2"/>
+                <text x="780" y="48" fill="#34D399" font-size="12" font-weight="bold" text-anchor="middle">4. 雙向國際循環</text>
+                <text x="780" y="72" fill="#FFFFFF" font-size="10" text-anchor="middle">頭 3 任總經理皆美國人</text>
+                <text x="780" y="92" fill="#A7F3D0" font-size="10" text-anchor="middle">回美後：1人當創投、</text>
+                <text x="780" y="110" fill="#A7F3D0" font-size="10" text-anchor="middle">1人創業、1人做專業經理人</text>
+                <text x="780" y="136" fill="#FDE047" font-size="10" font-weight="bold" text-anchor="middle">Training by Circulation</text>
+              </svg>
+              <figcaption>▲ Exhibit 14A：張忠謀於 TCA 高峰會與美國 ATD 演講揭示之「台美人才循環（Training by Circulation）」機制（p.21–25）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 14B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 14B ｜ MODESTY, WORLDVIEW & FUNCTIONAL CIRCULATION</span><span>CHAPTERS 05 & 06</span></div>
+              <div class="mck-exhibit-title">張忠謀給台灣人才的兩大提點與企業人才循環實務對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 24%;">核心維度</th>
+                      <th style="width: 38%;">台灣常見盲點 / 現況限制</th>
+                      <th style="width: 38%;">張忠謀「美國 36 年體悟」與台積電實踐</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>1. 學歷與謙虛 (Modesty)</strong><br>(p.22, 24)</td>
+                      <td>考取台大好像就是一生巔峰（18歲達人生巔峰），<strong>很多 50～60 歲的人還一直講「我在台大的時候怎樣……」</strong>。</td>
+                      <td>在美國從沒聽過 50～60 歲的人提哈佛或耶魯，<strong>「我是 MIT 的，畢業後我就不提 MIT 了！I think that is modesty!」</strong>因為世界很大、強者如雲，自然學會謙虛。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>2. 創辦台積電的核心資產</strong><br>(p.22–25)</td>
+                      <td>外界以為張忠謀從美國帶回半導體先進技術。</td>
+                      <td>「我回台灣第一個工作是工研院院長，<strong>我帶回來的不是什麼技術，我老早就不搞技術了，帶回來最重要的其實是『世界觀』（智慧財產）！</strong>」</td>
+                    </tr>
+                    <tr>
+                      <td><strong>3. 職能循環難易度差異</strong><br>(p.23, 25)</td>
+                      <td>以為所有職位都能用相同速度跨國或跨公司流動。</td>
+                      <td><strong>財務、會計（Financial accounting）、人資</strong>等職務較有機會達到人才循環；<strong>技術人才（Technical people）</strong>因須長時間待在實驗室，流動較困難。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 05 (p.21–23) TCA 演講逐字稿、Ch 06 (p.24–25) 美國 ATD 演講</span>
+                <span>McKinsey Briefing Deck • Slide 14</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>領導者切勿停留在過去的學歷光環；唯有具備「世界觀」與「謙虛（Modesty）」，並透過「人才循環（Training by Circulation）」歷練，才能打造世界級梯隊。</p>
+              <p><strong>② 補充說明：</strong>台積電 20 幾位副總以上高管，至少一半經歷「台灣大學 ➔ 美國留學工作 ➔ 回台從基層工程師一步步升副總」的完整循環（p.21, 25）。</p>
+              <p><strong>③ 下一頁轉場：</strong>為什麼杜拉克 60 歲後能寫出 3/4 著作、張忠謀 55 歲才創台積電卻能始終走在產業最尖端？請看 Slide 15 的「3 個學習祕訣」。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 15 ==================== -->
+        <section class="slide-card" id="slide-learning-secrets">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 15 / 16 ｜ LIFELONG LEARNING SYSTEM OF MORRIS CHANG</div>
+              <h2 class="slide-title">學習不是消遣而是嚴肅的事！張忠謀靠「有目標、有紀律日讀 2–4 小時、有計畫結交大師」領航產業尖端</h2>
+            </div>
+            <span class="priority-badge badge-p3">🌱 P3 終身學習</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 15A: 3 Learning Secrets SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 15A ｜ MORRIS CHANG'S 3-PILLAR LIFELONG LEARNING ARCHITECTURE</span><span>CHAPTER 07 (P.26-27)</span></div>
+              <svg viewBox="0 0 880 185" width="100%" style="max-width:850px;">
+                <rect width="880" height="185" rx="6" fill="#051C2C"/>
+                <!-- Secret 1 -->
+                <rect x="20" y="22" width="265" height="142" rx="5" fill="#0A2540" stroke="#2251FF" stroke-width="2"/>
+                <text x="152" y="46" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">祕訣 1｜有目標 (Goal-Driven)</text>
+                <text x="152" y="70" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">一定要跟上「所屬行業的發展」</text>
+                <text x="34" y="94" fill="#CBD5E1" font-size="10">• 否則 10–15 年內極可能面臨失業危機</text>
+                <text x="34" y="114" fill="#CBD5E1" font-size="10">• 實例：研究所剛畢業時根本沒聽過</text>
+                <text x="34" y="132" fill="#FDE047" font-size="10" font-weight="bold">  「電晶體 (Transistor)」，幾年後卻成</text>
+                <text x="34" y="148" fill="#FDE047" font-size="10" font-weight="bold">  普遍技術，不與時俱進就只有失業！</text>
+
+                <!-- Secret 2 -->
+                <rect x="307" y="22" width="265" height="142" rx="5" fill="#163656" stroke="#F59E0B" stroke-width="2"/>
+                <text x="439" y="46" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">祕訣 2｜有紀律 (Disciplined)</text>
+                <text x="439" y="70" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">每天花 2–4 小時閱讀，將知識內化</text>
+                <text x="321" y="94" fill="#FFFFFF" font-size="10">• 學習不是「消遣」，而是「嚴肅的事」</text>
+                <text x="321" y="114" fill="#34D399" font-size="10" font-weight="bold">• 讀客戶資訊：必記筆記＋每兩周/每月溫習</text>
+                <text x="321" y="132" fill="#CBD5E1" font-size="10">• 讀一般書籍：一段時間內大量專注研讀</text>
+                <text x="321" y="148" fill="#CBD5E1" font-size="10">  特定領域（如康熙皇朝、全球經濟情勢）</text>
+
+                <!-- Secret 3 -->
+                <rect x="594" y="22" width="265" height="142" rx="5" fill="#0A2540" stroke="#10B981" stroke-width="2"/>
+                <text x="726" y="46" fill="#34D399" font-size="13" font-weight="bold" text-anchor="middle">祕訣 3｜有計畫 (Planned)</text>
+                <text x="726" y="70" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">打好基礎，結交世界級專業人士</text>
+                <text x="608" y="94" fill="#CBD5E1" font-size="10">• 諾貝爾經濟學家克魯曼 (Paul Krugman)</text>
+                <text x="608" y="110" fill="#CBD5E1" font-size="10">  來台唯一對談之台灣經營者</text>
+                <text x="608" y="128" fill="#CBD5E1" font-size="10">• 邀麥可・波特任台積電獨立董事</text>
+                <text x="608" y="148" fill="#FDE047" font-size="10" font-weight="bold">• 前提：先具備「專業知識＋獨立思考」</text>
+              </svg>
+              <figcaption>▲ Exhibit 15A：張忠謀三大終身學習系統——有目標防淘汰、有紀律日讀 2–4 小時、有計畫與大師思想交鋒（p.26–27）。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 15B -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 15B ｜ DRUCKER VS. CHANG: SENIOR EXECUTIVE LEARNING BENCHMARK</span><span>CHAPTER 07</span></div>
+              <div class="mck-exhibit-title">管理大師彼得・杜拉克與半導體教父張忠謀之「高齡巔峰終身學習法」對照表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 22%;">比較維度</th>
+                      <th style="width: 38%;">管理大師 彼得・杜拉克 (Peter Drucker)</th>
+                      <th style="width: 40%;">台積電創辦人 張忠謀 (Morris Chang)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>高齡創舉與職涯突破</strong><br>(p.26)</td>
+                      <td>一生出版 <strong>39 本著作，其中四分之三（約 30 本）完成在 60 歲之後</strong>，享壽 96 歲。</td>
+                      <td><strong>54/55 歲才創立台積電</strong>，開啟「晶圓代工」全新商業模式，掌舵 30 餘年至 87 歲退休。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>主題式深度學習法</strong><br>(p.26–27)</td>
+                      <td>持續奉行<strong>「三年式主題學習」超過 60 年</strong>，不間斷研究社會、政治、美術、歷史等各種主題。</td>
+                      <td>每天花 <strong>2–4 小時閱讀</strong>；讀一般書籍不漫無目的瀏覽，而是在一段時間內<strong>大量、專注研讀某個領域（如「康熙皇朝」、「全球經濟情勢」）</strong>並發表感想。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>人脈與客戶學習法</strong><br>(p.27)</td>
+                      <td>跨學科請益各領域頂尖學者與企業實踐者。</td>
+                      <td>讀客戶資訊<strong>必記筆記並每兩周/每月溫習</strong>；先打好<strong>專業知識與獨立思考基礎</strong>，再與克魯曼、麥可・波特等大師深度對談與共事。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 07 (p.26–27) 陳芳毓整理撰文</span>
+                <span>McKinsey Briefing Deck • Slide 15</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>年齡從來不是職涯天花板；把學習當成「嚴肅的事」，落實每日 2–4 小時有紀律閱讀與主題深讀，才能在科技巨變中立於不敗。</p>
+              <p><strong>② 補充說明：</strong>張忠謀強調，想跟克魯曼、波特這類頂尖專業人士交往前，自己必須先打好「專業知識＋獨立思考能力」的基礎，否則談話根本不會有交集（p.27）。</p>
+              <p><strong>③ 下一頁轉場：</strong>最後我們來到 Slide 16，完整檢視清華大學演講會後 4 大精彩 QA，並將全書濃縮為執行長立即可執行的 30-60-90 天行動表！</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 16 ==================== -->
+        <section class="slide-card" id="slide-qa-action">
+          <div class="slide-header">
+            <div>
+              <div class="chapter-number">MCKINSEY BRIEFING SLIDE 16 / 16 ｜ TSINGHUA 4 Q&As & 30-60-90 DAY CEO ACTION PLAN</div>
+              <h2 class="slide-title">清大演講 4 大 QA 點破「90% 跨領域斜槓 vs 10% 專精」與商學院差距，並轉化為 CEO 90 天落地藍圖</h2>
+            </div>
+            <span class="priority-badge badge-p3">🌱 P3 總結與落地</span>
+          </div>
+          <div class="slide-body">
+            <!-- Visual Exhibit 16A: 90/10 Talent Rule & 90-Day Roadmap SVG -->
+            <figure class="slide-media">
+              <div class="mck-exhibit-label"><span>EXHIBIT 16A ｜ TSINGHUA Q&A INSIGHTS & 30-60-90 DAY CEO IMPLEMENTATION ROADMAP</span><span>CHAPTER 02 (P.13-14)</span></div>
+              <svg viewBox="0 0 880 180" width="100%" style="max-width:850px;">
+                <rect width="880" height="180" rx="6" fill="#051C2C"/>
+                <!-- Left: 90/10 Rule -->
+                <rect x="20" y="20" width="280" height="140" rx="5" fill="#0A2540" stroke="#00A9F4" stroke-width="2"/>
+                <text x="160" y="44" fill="#38BDF8" font-size="13" font-weight="bold" text-anchor="middle">🎓 跨領域斜槓學習 90 / 10 法則 (QA2)</text>
+                <rect x="36" y="58" width="248" height="42" rx="4" fill="#1E3A8A"/>
+                <text x="160" y="77" fill="#FFFFFF" font-size="11" font-weight="bold" text-anchor="middle">90% 大學生：應念廣一點、跨領域斜槓</text>
+                <text x="160" y="93" fill="#7DD3FC" font-size="10" text-anchor="middle">（結合科技與管理，才能與國際一流人才較量）</text>
+                <rect x="36" y="108" width="248" height="38" rx="4" fill="#334155"/>
+                <text x="160" y="125" fill="#FDE047" font-size="11" font-weight="bold" text-anchor="middle">5%～10% 終身投入特別領域者：不要太廣</text>
+                <text x="160" y="140" fill="#CBD5E1" font-size="10" text-anchor="middle">（立志終身深耕單一尖端科學技術之專才）</text>
+
+                <!-- Right: 30-60-90 Day Flow -->
+                <rect x="318" y="20" width="542" height="140" rx="5" fill="#163656" stroke="#F59E0B" stroke-width="2"/>
+                <text x="589" y="44" fill="#FCD34D" font-size="13" font-weight="bold" text-anchor="middle">🚀 讀完本書立即應用的「執行長 30-60-90 天落地三部曲」</text>
+                <rect x="332" y="58" width="162" height="86" rx="4" fill="#051C2C" stroke="#38BDF8"/>
+                <text x="413" y="78" fill="#38BDF8" font-size="11" font-weight="bold" text-anchor="middle">Day 1–30｜基本功</text>
+                <text x="413" y="98" fill="#FFFFFF" font-size="10" text-anchor="middle">• 開會不記筆記看對方</text>
+                <text x="413" y="114" fill="#FFFFFF" font-size="10" text-anchor="middle">• 客戶筆記雙週溫習</text>
+                <text x="413" y="130" fill="#FFFFFF" font-size="10" text-anchor="middle">• 零老班底公平用人</text>
+
+                <rect x="508" y="58" width="162" height="86" rx="4" fill="#051C2C" stroke="#FBBF24"/>
+                <text x="589" y="78" fill="#FBBF24" font-size="11" font-weight="bold" text-anchor="middle">Day 31–60｜訂價與商模</text>
+                <text x="589" y="98" fill="#FFFFFF" font-size="10" text-anchor="middle">• 以「客戶是誰」定商模</text>
+                <text x="589" y="114" fill="#FFFFFF" font-size="10" text-anchor="middle">• 轉向客製品高價值定價</text>
+                <text x="589" y="130" fill="#FFFFFF" font-size="10" text-anchor="middle">• 爭取 First & Last Look</text>
+
+                <rect x="684" y="58" width="162" height="86" rx="4" fill="#051C2C" stroke="#34D399"/>
+                <text x="765" y="78" fill="#34D399" font-size="11" font-weight="bold" text-anchor="middle">Day 61–90｜3W與學習</text>
+                <text x="765" y="98" fill="#FFFFFF" font-size="10" text-anchor="middle">• 全面落實 Who/What/When</text>
+                <text x="765" y="114" fill="#FFFFFF" font-size="10" text-anchor="middle">• 開通直通 CEO 創新上訴</text>
+                <text x="765" y="130" fill="#FFFFFF" font-size="10" text-anchor="middle">• 日讀 2 小時＋人才循環</text>
+              </svg>
+              <figcaption>▲ Exhibit 16A：清大演講跨領域 90/10 法則與執行長 30-60-90 天戰略領導落地路線圖。</figcaption>
+            </figure>
+
+            <!-- Table Exhibit 16B: 4 Q&As Full Table -->
+            <div class="mck-exhibit-box">
+              <div class="mck-exhibit-label"><span>EXHIBIT 16B ｜ COMPLETE TRANSCRIPT OF THE 4 Q&As AT TSINGHUA UNIVERSITY</span><span>CHAPTER 02 (P.13-14)</span></div>
+              <div class="mck-exhibit-title">清華大學演講會後 4 大經典 QA 完整問答與核心決策啟示表</div>
+              <div class="table-responsive">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 28%;">清大現場提問 (Q1–Q4)</th>
+                      <th style="width: 48%;">張忠謀原話回答精髓 (p.13–14)</th>
+                      <th style="width: 24%;">一句話行動啟示</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Q1：如果是業務行銷出身的人，升為總經理，要學哪些能力？</strong></td>
+                      <td>「那我想<strong>他要學的是技術</strong>。他不一定要做一個技術專家，一個總經理絕對不能夠做所有面向的專家，他沒有這個能力，但<strong>業務出身的總經理至少要懂得跟隨技術的方向</strong>。技術或業務出身誰適合做總經理沒有定論（如 Intel 也有財務出身的成功 CEO），<strong>最難的其實是技術</strong>。」</td>
+                      <td>技術出身補行銷訂價；業務財務出身補<strong>技術方向判斷力</strong>。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Q2：史丹佛、MIT 把領域軟化，跨領域學習（斜槓）是否重要？</strong></td>
+                      <td>「我贊成這個趨勢，大學要念廣一點，<strong>90% 的人可以跨領域學習</strong>。但對於有些<strong>想終身投入特別的領域的人，約 5%～10% 的大學生來說，還是不要太廣</strong>。」</td>
+                      <td>90% 管理與通才走跨領域斜槓；5–10% 頂尖科研專才保持深耕。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Q3：怎麼樣才能把價格穩定甚至提高？有無短跟長期策略分別？</strong></td>
+                      <td>「所謂高價格，請不要誤會，<strong>其實我要的是高價值，高價格只是高價值（High Value）的結果</strong>。比方說我太太的一幅畫，真正有意義的價格就是賣出去的價錢，代表一個價值。半導體定價有主觀層面（看客戶能出多少、承擔多少）。直到退休，定價一直是我最有興趣的題目，CC（魏哲家）最清楚。」</td>
+                      <td>先創造客戶不可替代的<strong>高價值与高品質</strong>，高價格自然隨之而來。</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Q4：台灣、美國在 MBA 上差距很大，最大原因在哪？如何縮短？</strong></td>
+                      <td>「我想<strong>台灣沒有太多世界級的企業，所以不太需要世界級的商學院，進而影響商學院的素質，兩者互相將程度往下拉</strong>。」（張忠謀於哈佛、MIT、史丹佛與台大、政大開放提問，從提問程度比較得出此結論）。</td>
+                      <td>主動吸收國際一流經營教材，鍛造世界觀與高深度提問力。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mck-slide-source">
+                <span>資料來源：本專刊 Ch 02 (p.9, 13–14) 清華大學演講會後 QA 完整實錄</span>
+                <span>McKinsey Briefing Deck • Slide 16 (End of Briefing)</span>
+              </div>
+            </div>
+
+            <div class="speaker-notes">
+              <div class="speaker-notes-title">🎤 逐頁講稿備忘錄 (Speaker Notes)</div>
+              <p><strong>① 本頁結論：</strong>張忠謀透過清大 4 大 QA 提醒我們：總經理必須技術與行銷兼備、創造高價值定價，並以跨領域視野與世界級標準自我要求。</p>
+              <p><strong>② 補充說明：</strong>讀完本簡報後可以立刻應用的一件事：下次主持會議時，把筆放下專注「看」對方講話（思考動機四問），並在會後用「Who、What、When」三個 W 確認所有決議！</p>
+              <p><strong>③ 結語與返回入口網：</strong>點擊右上角「🏠 返回執行長入口網」，即可使用全域關鍵字搜尋或勾選您的 30-60-90 天落地檢核表。</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Bottom Floating Slide Navigation -->
+  <div class="slide-footer-nav">
+    <button id="btnPrev" class="nav-btn" title="上一頁 (←)">←</button>
+    <span id="slideCounter" class="slide-counter">1 / 16</span>
+    <button id="btnNext" class="nav-btn" title="下一頁 (→ 或 Space)">→</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
